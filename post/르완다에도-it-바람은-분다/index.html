@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="chrome=1">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="referrer" content="no-referrer">
+
+<meta name="description" content="6 년전 작성했던 글 또 한번의 서버 마이그레이션 한국 -&gt; 르완다 -&gt; 미국 -&gt; Github 과거에 작성한 글을 되돌아 보며 세상이 참 빨리 움직인다는 것을 느낀다.
+르완다에서 작성하는 글은 르완다에 저장해 사용하는 것이 의미 있다고 생각해 블로그 서버를 한국에서 르완다로 옮겼습니다. 르완다에서의 정부 지원과제를 돕던 중에 르완다 정부서버를 사용할 기회를 얻어 이렇게 서버 마이그레이션 작업을 하게 되었습니다. 아마도 한국에서 접속한다 해도 그리 느리지 않을꺼라고 생각합니다.
+우선 포스팅에 앞서, 한가지 배경 지식부터 소개하자면,">
+
+<meta property="og:title" content="르완다에도 IT 바람은 분다" />
+<meta property="og:description" content="6 년전 작성했던 글 또 한번의 서버 마이그레이션 한국 -&gt; 르완다 -&gt; 미국 -&gt; Github 과거에 작성한 글을 되돌아 보며 세상이 참 빨리 움직인다는 것을 느낀다.
+르완다에서 작성하는 글은 르완다에 저장해 사용하는 것이 의미 있다고 생각해 블로그 서버를 한국에서 르완다로 옮겼습니다. 르완다에서의 정부 지원과제를 돕던 중에 르완다 정부서버를 사용할 기회를 얻어 이렇게 서버 마이그레이션 작업을 하게 되었습니다. 아마도 한국에서 접속한다 해도 그리 느리지 않을꺼라고 생각합니다.
+우선 포스팅에 앞서, 한가지 배경 지식부터 소개하자면," />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://blog.jbear.co/post/%EB%A5%B4%EC%99%84%EB%8B%A4%EC%97%90%EB%8F%84-it-%EB%B0%94%EB%9E%8C%EC%9D%80-%EB%B6%84%EB%8B%A4/" />
+
+
+
+<meta property="article:published_time" content="2011-11-01T11:40:18&#43;09:00"/>
+<meta property="article:modified_time" content="2011-11-01T11:40:18&#43;09:00"/>
+
+
+
+
+
+
+
+
+
+
+
+
+<title>
+
+
+     르완다에도 IT 바람은 분다 
+
+</title>
+<link rel="canonical" href="http://blog.jbear.co/post/%EB%A5%B4%EC%99%84%EB%8B%A4%EC%97%90%EB%8F%84-it-%EB%B0%94%EB%9E%8C%EC%9D%80-%EB%B6%84%EB%8B%A4/">
+
+
+
+
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.11.0/styles/default.min.css">
+
+
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Ubuntu+Mono:400,400i,700,700i|Raleway:500">
+
+
+
+    <link rel="stylesheet" href="http://blog.jbear.co/css/reset.css">
+    <link rel="stylesheet" href="http://blog.jbear.co/css/pygments.css">
+    <link rel="stylesheet" href="http://blog.jbear.co/css/main.css">
+    
+
+
+
+
+<link rel="shortcut icon"
+
+    href="http://blog.jbear.co/img/favicon.ico"
+
+>
+
+
+
+
+</head>
+
+
+<body lang="">
+
+<section class="header">
+    <div class="container">
+        <div class="content">
+            
+            <a href="http://blog.jbear.co/"><div class="name"></div></a>
+            
+            <nav>
+                <ul>
+                    
+                        <li class="nav-post"><a href="http://blog.jbear.co/post/"><span>Post</span></a></li>
+                    
+                        <li class="nav-about"><a href="http://blog.jbear.co/about/"><span>About</span></a></li>
+                    
+                </ul>
+            </nav>
+        </div>
+    </div>
+</section>
+
+<section class="icons">
+    <div class="container">
+        <div class="content">
+
+        
+            <a href="//github.com/designe" target="_blank" rel="noopener"><img class="icon" src="http://blog.jbear.co/img/github.svg" alt="github" /></a>
+        
+
+        
+
+        
+
+        
+
+        
+            <a href="//facebook.com/hello.designe" target="_blank" rel="noopener"><img class="icon" src="http://blog.jbear.co/img/facebook.svg" alt="facebook" /></a>
+        
+
+        
+
+        
+
+        
+
+        
+            <a href="http://blog.jbear.co/index.xml"><img class="icon" src="http://blog.jbear.co/img/rss.svg" alt="rss" /></a>
+        
+        
+        </div>
+    </div>
+</section>
+
+<section class="main">
+    <div class="container">
+        <div class="content">
+            <div class="page-heading">
+
+    르완다에도 IT 바람은 분다
+
+</div>
+
+            <div class="markdown">
+                
+
+<p>6 년전 작성했던 글
+ 또 한번의 서버 마이그레이션 한국 -&gt; 르완다 -&gt; 미국 -&gt; Github
+ 과거에 작성한 글을 되돌아 보며 세상이 참 빨리 움직인다는 것을 느낀다.</p>
+
+<hr />
+
+<p>르완다에서 작성하는 글은 르완다에 저장해 사용하는 것이 의미 있다고 생각해 블로그 서버를 한국에서 르완다로 옮겼습니다.
+르완다에서의 정부 지원과제를 돕던 중에 르완다 정부서버를 사용할 기회를 얻어 이렇게 서버 마이그레이션 작업을 하게 되었습니다.
+아마도 한국에서 접속한다 해도 그리 느리지 않을꺼라고 생각합니다.</p>
+
+<p>우선 포스팅에 앞서, 한가지 배경 지식부터 소개하자면,</p>
+
+<h4 id="폰-노이만-구조-von-neumann-architecture">폰 노이만 구조(Von Neumann architecture)</h4>
+
+<p>폰노이만 아저씨가 1944년 여름에 최초의 범용(general purpose) 컴퓨터라 불리는 애니악 프로젝트에 참여하고 여기서 불편함을 하나 발견합니다. 이것은 새로운 프로그램의 결과를 보기 위해서 re-wiring, re-structuring, re-designing을 되풀이 해야하는 것이었는데, 이 작업이 빨리 끝나면 아무런 문제가 되지 않았겠지만, ANIAC에서 보통 3주씩 걸리곤 했으니&hellip; 실로 어마어마한 기간이죠. 이런 프로그램 방식은 초기 대다수의 컴퓨터가 가졌던 fixed program 방식이라고 합니다.
+그리곤 이 불편함을 해소하기 위해 나온 새로운 방식이 바로 &ldquo;stored program&rdquo; 개념입니다. 우리나라에선 프로그램 내장방식으로 번역되곤 하였죠. 바로 이것이 세상을 바꿉니다. 세계의 모든 사물에 API를 집어넣으려는 무시무시한 계획까지 나오도록 말이지요. 사실상 이 개념이 모든 사물을 컴퓨터로 바꾸는 역할을 합니다. 지금의 스마트폰, 스마트TV처럼 말이죠.</p>
+
+<p>#### 소프트웨어 후진국들의 IT 바람 만들기</p>
+
+<p>폰 노이만 구조로 시작된 전세계에 부는 이 스마트 바람을 르완다와 같은 지식기반사회를 꿈꾸는 개발도상국들은 어떻게 적용해야 할까요? 우선은 이 바람을 잘 타기 위해 네트워크 기반을 확실히 구축해야 하는데, 개발도상국에서는 이런 부분마저 너무나도 버겁습니다. 뭐 사실을 따지자면 기반 시설이 구축되어 있다손 치더라도, 개도국의 사람들이 스마트 기기를 살만한 여력이 되질 않습니다. 결론적으로 우리들이 흔히 말하는 스마트 기기의 앱 생태계는 이런 르완다와 같은 개발도상국에서는 구축되기가 쉽지 않죠. 그렇다면 생각을 바꿔야 합니다. 세계의 흐름은 나라가 잘 살면 잘 살수록 쉽게 따라갈 수 있습니다. 이런 르완다에서는 새로운 앱 생태계를 만들어야 합니다. 어떤 생태계가 가장 쉽게 만들어질 수 있을까요?</p>
+
+<p>저는 그것이 PC에 있다고 생각합니다. PC 프로그램 생태계는 아직까지 그 잠재력을 다 보여주지 못하고 있습니다. 태블릿과 스마트폰과 같은 N-Screen 기기들은 PC의 대용이 아닌 같이 동반하는 존재들이니까 말이죠. 사용용도가 약간은 틀릴 수 있지만, 태블릿이나 스마트폰에서 가능한 것은 모든 PC에서도 가능합니다. 그러니 더더욱 르완다같은 개도국에서는 새로운 문물을 받아들이는 것보다는 현재 있는 환경에서 변혁을 꾀하는 것이 나은 전략일지도 모릅니다. PC라는 녀석은 선진국들은 말할필요도 없고, 르완다에서도 어디서든 마음만 먹으면 접할 수 있습니다. 르완다 대부분의 PC OS는 Windows XP를 기본으로 하고 있어요. 하지만 여러분들도 아시다시피, 이미 Windows 8 DP(developer preview) 버전까지 나온 마당에 XP에 종속적인 생태계 구축은 향후 경쟁력이 매우 떨어집니다. 그렇다면 어디에 길이 있을까요? 바로 Cross Platform 웹입니다. 모든 N-Screen이 공통적으로 이용할 수 있는 공간이죠. 우리나라에서는 2007년도에 급격한 관심을 모았던 Web application 인데요. 아이폰발 스마트폰 바람때문에 금방 꺼졌지만, 다시금 Cross platform이 재조명을 받고 있는 시기입니다.  진정한 RIA(Rich Internet Application)이자 Web application의 메인 기술이 표준화 단계를 밟으며,  조용히 한걸음 한걸음 성장하고 있거든요.</p>
+
+<p>뿐만 아니라 &ldquo;클라우드&rdquo;라는 거대한 데이터 센터에도 이유가 숨어있습니다. 지금 클라우드라는 녀석이 거대한 유틸리티형 클라이언트겸 서버로 자리매김되어가고 있는데, 왜 다들 그렇게 클라우드 노래를 부르고 있는걸까요? 그린컴퓨팅과 같은 이유도 있겠지만 Web Application을 SaaS(Software as a Service)로서, 가장 운용하기 좋은 형태가 바로 이 클라우드라서 그렇습니다. 지금 세계의 선봉기업들이 이끌어가는 IT 그 앞의 미래는 웹이 빠질 수가 없습니다. 2008년 당시 멈춰버린 Web2.0은 아직 죽지 않았습니다. 하지만 지금은 이미 지나버린 옛 느낌이 강하니, 또 다시 이 웹에 새로운 이름이 붙고, 이끌어 가겠죠.  따라서 르완다와 같은 나라에선 유선전화기를 거치지 않고, 바로 모바일폰 시대로 넘어 왔듯이, 이 또한 스마트기기에 종속적인 생태계가 아닌, Cross platform을 따르는 열린 생태계 즉, 웹으로 관심을 돌려야한다는 소리입니다. 그것이 르완다같은 개도국이라면, 이에 대한 주가 스마트기기들이 아닌 PC로 말이죠.</p>
+
+<p>사실 이 이야기는 르완다 뿐만이 아니라 모든 소프트웨어 후진국에 적용될 수 있는 이야기입니다.
+우리나라 한국은 이미 1990년대부터 Microsoft Windows의 소프트웨어 식민지였습니다.</p>
+
+<h4 id="지금은">지금은?</h4>
+
+<p>아이폰, 안드로이드와 같은 모바일 OS의 식민지죠.
+우리는 이미 한번 특정 OS에 종속적인 프로그램들의 개발에 열을 다한적이 있습니다.
+그런데 이 현상은 지금도 그대로 반복되고 있습니다.
+이번 서울시장 선거 공약들만 보아도, 앱개발에 사람들의 관심은 집중됩니다.
+우리들의 이러한 지나친 관심에 의해 Platform 개발국은 그저 땡큐하지요.
+우리는 세계의 바람에 뒤쳐지지 않기 위해 이들의 생태계를 계속 넓혀주는 일만 해야할까요?
+우리가 세계의 바람을 만들 수는 없는걸까요?
+OS만이 플랫폼은 아닙니다. 이제는 플랫폼에 집중해야할 때입니다.</p>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<script>
+window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+ga('create', 'UA-103163127-1', 'auto');
+ga('send', 'pageview');
+</script>
+<script async src='//www.google-analytics.com/analytics.js'></script>
+
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.11.0/highlight.min.js"></script>
+  
+
+  <script type="text/javascript">
+    hljs.initHighlightingOnLoad();
+  </script>
+
+
+
+
+</body>
+</html>
+

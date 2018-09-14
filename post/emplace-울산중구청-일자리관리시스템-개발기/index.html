@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="chrome=1">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="referrer" content="no-referrer">
+
+<meta name="description" content="2012년 7월 말, 기쁜 마음을 안고 한국에 돌아온 것도 잠시 한국은 내가 생각한 그 이상으로 바쁘다는 사실을 절실히 깨닫게 되었다. 나는 바로 울산으로 내려갔고, 중구청 경제일자리과에서 Emplace라는 일자리 관리 시스템 개발을 진행했다. Emplace는 Employment Place를 합친 용어이다. Marketplace에서 영감을 받았다고 해야하나; 프로젝트는 약 한달간 진행되었는데 기획을 포함해서, 개발, 디자인을 하기에는 매우 짧은 시간. 하지만 이 기간동안 한국 특유의 분주함을 새삼 느낄 수 있었기에 보다 빨리 한국사회에 적응할 수 있었다. 되돌아보면 짧은 기간이었지만 이 프로젝트 속에는 꽤나 많은 기억들이 곳곳에 배어 있다.">
+
+<meta property="og:title" content="Emplace 울산중구청 일자리관리시스템 개발기" />
+<meta property="og:description" content="2012년 7월 말, 기쁜 마음을 안고 한국에 돌아온 것도 잠시 한국은 내가 생각한 그 이상으로 바쁘다는 사실을 절실히 깨닫게 되었다. 나는 바로 울산으로 내려갔고, 중구청 경제일자리과에서 Emplace라는 일자리 관리 시스템 개발을 진행했다. Emplace는 Employment Place를 합친 용어이다. Marketplace에서 영감을 받았다고 해야하나; 프로젝트는 약 한달간 진행되었는데 기획을 포함해서, 개발, 디자인을 하기에는 매우 짧은 시간. 하지만 이 기간동안 한국 특유의 분주함을 새삼 느낄 수 있었기에 보다 빨리 한국사회에 적응할 수 있었다. 되돌아보면 짧은 기간이었지만 이 프로젝트 속에는 꽤나 많은 기억들이 곳곳에 배어 있다." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://blog.jbear.co/post/emplace-%EC%9A%B8%EC%82%B0%EC%A4%91%EA%B5%AC%EC%B2%AD-%EC%9D%BC%EC%9E%90%EB%A6%AC%EA%B4%80%EB%A6%AC%EC%8B%9C%EC%8A%A4%ED%85%9C-%EA%B0%9C%EB%B0%9C%EA%B8%B0/" />
+
+
+
+<meta property="article:published_time" content="2012-12-27T00:50:51&#43;09:00"/>
+<meta property="article:modified_time" content="2012-12-27T00:50:51&#43;09:00"/>
+
+
+
+
+
+
+
+
+
+
+
+
+<title>
+
+
+     Emplace 울산중구청 일자리관리시스템 개발기 
+
+</title>
+<link rel="canonical" href="http://blog.jbear.co/post/emplace-%EC%9A%B8%EC%82%B0%EC%A4%91%EA%B5%AC%EC%B2%AD-%EC%9D%BC%EC%9E%90%EB%A6%AC%EA%B4%80%EB%A6%AC%EC%8B%9C%EC%8A%A4%ED%85%9C-%EA%B0%9C%EB%B0%9C%EA%B8%B0/">
+
+
+
+
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.11.0/styles/default.min.css">
+
+
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Ubuntu+Mono:400,400i,700,700i|Raleway:500">
+
+
+
+    <link rel="stylesheet" href="http://blog.jbear.co/css/reset.css">
+    <link rel="stylesheet" href="http://blog.jbear.co/css/pygments.css">
+    <link rel="stylesheet" href="http://blog.jbear.co/css/main.css">
+    
+
+
+
+
+<link rel="shortcut icon"
+
+    href="http://blog.jbear.co/img/favicon.ico"
+
+>
+
+
+
+
+</head>
+
+
+<body lang="">
+
+<section class="header">
+    <div class="container">
+        <div class="content">
+            
+            <a href="http://blog.jbear.co/"><div class="name"></div></a>
+            
+            <nav>
+                <ul>
+                    
+                        <li class="nav-post"><a href="http://blog.jbear.co/post/"><span>Post</span></a></li>
+                    
+                        <li class="nav-about"><a href="http://blog.jbear.co/about/"><span>About</span></a></li>
+                    
+                </ul>
+            </nav>
+        </div>
+    </div>
+</section>
+
+<section class="icons">
+    <div class="container">
+        <div class="content">
+
+        
+            <a href="//github.com/designe" target="_blank" rel="noopener"><img class="icon" src="http://blog.jbear.co/img/github.svg" alt="github" /></a>
+        
+
+        
+
+        
+
+        
+
+        
+            <a href="//facebook.com/hello.designe" target="_blank" rel="noopener"><img class="icon" src="http://blog.jbear.co/img/facebook.svg" alt="facebook" /></a>
+        
+
+        
+
+        
+
+        
+
+        
+            <a href="http://blog.jbear.co/index.xml"><img class="icon" src="http://blog.jbear.co/img/rss.svg" alt="rss" /></a>
+        
+        
+        </div>
+    </div>
+</section>
+
+<section class="main">
+    <div class="container">
+        <div class="content">
+            <div class="page-heading">
+
+    Emplace 울산중구청 일자리관리시스템 개발기
+
+</div>
+
+            <div class="markdown">
+                <p>2012년 7월 말, 기쁜 마음을 안고 한국에 돌아온 것도 잠시 한국은 내가 생각한 그 이상으로 바쁘다는 사실을 절실히 깨닫게 되었다. 나는 바로 울산으로 내려갔고, 중구청 경제일자리과에서 Emplace라는 일자리 관리 시스템 개발을 진행했다. Emplace는 Employment Place를 합친 용어이다. Marketplace에서 영감을 받았다고 해야하나; 프로젝트는 약 한달간 진행되었는데 기획을 포함해서, 개발, 디자인을 하기에는 매우 짧은 시간. 하지만 이 기간동안 한국 특유의 분주함을 새삼 느낄 수 있었기에 보다 빨리 한국사회에 적응할 수 있었다. 되돌아보면 짧은 기간이었지만 이 프로젝트 속에는 꽤나 많은 기억들이 곳곳에 배어 있다. 기억들을 몽땅 끄집어내기는 힘들겠지만 정리 차 이곳에 한번 써내려가보려 한다.</p>
+
+<p><img src="http://blog.jbear.co/images/emplace_logo.jpg" alt="alt emplace logo" /></p>
+
+<p>그러고보니 나는 항상 프로젝트 이름을 두개 단어의 합성어로 만드는거 같다. 허허. 아무튼간에 이번 프로젝트는 기존의 마이크로소프트 엑셀을 이용한 구인 및 구직 리스트를 관리하고 있는 프로세스에서 더 효율적인 자료 관리를 함과 동시에 일자리 추천시스템을 적용하여 보다 많은 구직자들에게 혜택을 돌아가게 함에 있다. 나는 개인적으로 엑셀을 현존하는 세계 최강의 사무용 프로그램이라고 생각하지만 제대로 활용하지 못하면 그저 한글이나 워드에서 자료들을 테이블로 관리하는 것만큼이나 효율이 없을 수도 있다. 나는 이런 부분들을 케어하고, 일의 프로세스를 일률적으로 명확히 정의하여 관리의 효율성을 증가시키기 위해 많은 노력을 했던 것 같다.</p>
+
+<p><img src="http://blog.jbear.co/images/emplace_1.png" alt="alt emplace architecture" /></p>
+
+<p>전체적인 시스템 아키텍쳐는 위와 같다. 한달짜리 프로젝트다보니 &lsquo;세상을 바꿔버리겠다!&rsquo; 할만큼 화려하지는 못하다. 조그만 프로젝트였지만 꽤나 고군분투하기도 했었다. Windows XP에서 .Net Framework 3.5의 속도문제가 나를 가끔.. ^^</p>
+
+<p>아래는 Emplace의 스크린샷이다. 인력관리시스템이다보니 개인정보가 과도(?)하게 노출되어 모자이크 처리를 하였다. 기능적으로 봤을 때 프로젝트의 완성도는 100%이지만 리펙토링의 과정을 거칠 여유가 없었기 때문에 코드가 아름답지는 못하다는게 함정.</p>
+
+<p><img src="http://blog.jbear.co/images/emplace_2.png" alt="alt emplace screenshot" /></p>
+
+<p>당시에 프로젝트를 개발하며 남긴 일지를 보니 이런저런 다양한 고민들을 발견할 수 있었다. 한국의 관공서 OS 플랫폼에 가장 맞는 개발 플랫폼은 무엇일까부터 시작해 기존의 엑셀을 데이터베이스로 이용해 하위호환성은 유지하면서 속도는 어떻게 빠르게 하며, 수많은 데이터를 불러 들일 때 전체적인 시스템의 프로세스가 느려지는 상황에서의 해결책은? 등등 :)
+데이터들을 한꺼번에 불러들여 속도가 늦쳐지는 현상은 요즘 이슈인 애니팡에서도 볼 수 있다. 이는 사용자 리스트 전부를 무작정 UI 오브젝트와 연결하다보니 발생하는 문제다. 사용자에게 보일때만 데이터들을 UI 오브젝트화하면 되므로 해결법이 그리 어렵지는 않은데, 요즘 애니팡을 하지 않아 지금은 고쳐졌는지 잘 모르겠다.</p>
+
+<p>솔직히 emplace 프로젝트를 진행하며 이런 기술적인 요소들보다 내 기억속에 강하게 자리잡고 있는 건 당시에 그렇게 무더웠던 날씨에도 불구하고 60-70대 할머니 할아버지들이 일자리를 구하기 위해 중구청까지 나와 알선을 요청하는 모습이었다. 더 안타까운 건 이분들이 구할 수 있는 일자리는 청소, 노무, 경비원정도라는 점. 이 중에서도 경비원은 할아버지들에게 최고의 직업이었고, 그만큼 들어가기도 어려웠다. 당장 돈을 벌기 위해서도 일자리는 필요하겠지만, 40~50년동안 하던 일들을 정년은퇴로 그만둬야만 했던 그들의 무력감에서 오는 외로움은 다시금 그들을 사회로 나오게 만든다. 실버세대들의 일자리는 우리가 생각하는 것 이상으로 사회적인 큰 문제다. 앞으로 베이비 붐 세대를 시작으로 점점 고령화 사회로 접어들 텐데, 그렇게 쏟아지는 많은 사람들은 이제 무엇을 하며 살아가야 하는 걸까? 앞으로 우리 청년들은 이 문제에 대해  어떻게 대처해 나가야 하는 걸까?</p>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<script>
+window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+ga('create', 'UA-103163127-1', 'auto');
+ga('send', 'pageview');
+</script>
+<script async src='//www.google-analytics.com/analytics.js'></script>
+
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.11.0/highlight.min.js"></script>
+  
+
+  <script type="text/javascript">
+    hljs.initHighlightingOnLoad();
+  </script>
+
+
+
+
+</body>
+</html>
+
