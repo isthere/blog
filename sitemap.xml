@@ -3,6 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://blog.jbear.co/profile/</loc>
+    <lastmod>2018-03-11T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.jbear.co/post/2018%EB%85%84_%EC%83%88%ED%95%B4_%EC%8B%9C%EC%9E%91/</loc>
     <lastmod>2018-01-01T23:59:16+09:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -47,6 +54,13 @@
   <url>
     <loc>https://blog.jbear.co/post/2015%E1%84%82%E1%85%A7%E1%86%AB_%E1%84%86%E1%85%A9%E1%86%A8%E1%84%91%E1%85%AD/</loc>
     <lastmod>2015-01-06T23:48:36+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.jbear.co/about/</loc>
+    <lastmod>2014-07-23T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -201,18 +215,6 @@
   <url>
     <loc>https://blog.jbear.co/post/%E1%84%85%E1%85%B3%E1%84%8B%E1%85%AA%E1%86%AB%E1%84%83%E1%85%A1%E1%84%8B%E1%85%A6%E1%84%83%E1%85%A9it%E1%84%87%E1%85%A1%E1%84%85%E1%85%A1%E1%86%B7%E1%84%8B%E1%85%B3%E1%86%AB%E1%84%87%E1%85%AE%E1%86%AB%E1%84%83%E1%85%A1/</loc>
     <lastmod>2011-11-01T11:40:18+09:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.jbear.co/about/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.jbear.co/profile/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -505,7 +507,7 @@
   
   <url>
     <loc>https://blog.jbear.co/</loc>
-    <lastmod>2018-01-01T23:59:16+09:00</lastmod>
+    <lastmod>2018-03-11T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>

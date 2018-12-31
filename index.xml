@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright jbear All right Reserved</copyright>
-    <lastBuildDate>Mon, 01 Jan 2018 23:59:16 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 11 Mar 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://blog.jbear.co/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Profile</title>
+      <link>https://blog.jbear.co/profile/</link>
+      <pubDate>Sun, 11 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.jbear.co/profile/</guid>
+      <description>nick : jbear or designe github : http://github.com/designe facebook : https://facebook.com/hello.designe 경력 / Work Experience 2014 - Now Samsung Electronics Samsung Research / AI Center ~ 2015 DMC R&amp;amp;D Center / Creativity Lab ~ 2014 DMC R&amp;amp;D Center / Medical System Lab 2010 - 2012 KOICA(Korea International Cooperation Agency) / Cooperation Agent / For Rwanda 2009 - 2010 ~ 2013 - 2014 Samsung Software Membership / Software Engineer /</description>
+    </item>
     
     <item>
       <title>2018년 새해는 무얼할까?</title>
@@ -73,6 +82,15 @@
       
       <guid>https://blog.jbear.co/post/2015%E1%84%82%E1%85%A7%E1%86%AB_%E1%84%86%E1%85%A9%E1%86%A8%E1%84%91%E1%85%AD/</guid>
       <description>2015년 목표 자만심, 게으름을 버리고 새로운 분야에 도전. 블로깅 - 1달 1 post : 게으름을 이겨보자! 가능하면 기술적인 포스팅을 쓰고 싶다. 블로깅을 안한지 너</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://blog.jbear.co/about/</link>
+      <pubDate>Wed, 23 Jul 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.jbear.co/about/</guid>
+      <description>from 2014 - 2017 평범하게 글쓰기와 읽기를 좋아하는 새로운 경험을 즐기고 변화를 꿈꾸는 개발자 로그 It is about designe&amp;rsquo;s story. All of my post I wrote has been lost. My struggle for recovery is going to be continuous. 모든 컨텐츠를 날려</description>
     </item>
     
     <item>
@@ -172,24 +190,6 @@
       
       <guid>https://blog.jbear.co/post/%E1%84%8F%E1%85%A5%E1%84%91%E1%85%B5%E1%84%80%E1%85%AA%E1%86%BC%E1%84%80%E1%85%A9/</guid>
       <description>어떤 커피를 먹을까? 나는 광고에 남다른 애착이 있다. 개인적으로는 광고와 소프트웨어, 그리고 디자인이 세상을 바꾸는 가장 강력한 무기(Distruptive</description>
-    </item>
-    
-    <item>
-      <title>국제협력요원 존폐 여부에 관하여</title>
-      <link>https://blog.jbear.co/post/%E1%84%80%E1%85%AE%E1%86%A8%E1%84%8C%E1%85%A6%E1%84%92%E1%85%A7%E1%86%B8%E1%84%85%E1%85%A7%E1%86%A8%E1%84%8B%E1%85%AD%E1%84%8B%E1%85%AF%E1%86%AB/</link>
-      <pubDate>Thu, 08 Nov 2012 23:52:23 +0900</pubDate>
-      
-      <guid>https://blog.jbear.co/post/%E1%84%80%E1%85%AE%E1%86%A8%E1%84%8C%E1%85%A6%E1%84%92%E1%85%A7%E1%86%B8%E1%84%85%E1%85%A7%E1%86%A8%E1%84%8B%E1%85%AD%E1%84%8B%E1%85%AF%E1%86%AB/</guid>
-      <description>대한민국에는 현역복무대상자들이 보충역으로 지원가능한 다양한 군대체복무제도가 있다. 대표적으로는 많은 사람들이 알고 있는 소위 &amp;lsquo;병역특례&amp;r</description>
-    </item>
-    
-    <item>
-      <title>삼성과 애플의 특허 전쟁</title>
-      <link>https://blog.jbear.co/post/%E1%84%89%E1%85%A1%E1%86%B7%E1%84%89%E1%85%A5%E1%86%BC%E1%84%8B%E1%85%A2%E1%84%91%E1%85%B3%E1%86%AF%E1%84%90%E1%85%B3%E1%86%A8%E1%84%92%E1%85%A5/</link>
-      <pubDate>Sat, 20 Oct 2012 23:52:35 +0900</pubDate>
-      
-      <guid>https://blog.jbear.co/post/%E1%84%89%E1%85%A1%E1%86%B7%E1%84%89%E1%85%A5%E1%86%BC%E1%84%8B%E1%85%A2%E1%84%91%E1%85%B3%E1%86%AF%E1%84%90%E1%85%B3%E1%86%A8%E1%84%92%E1%85%A5/</guid>
-      <description>2011년 4월부터 시작된 특허전쟁은 아직 끝이 나지 않았다. 처음에 애플이 제기한 디자인 특허 침해 소송을 시작으로 불이 붙은 이 전쟁은 삼성의 통신 특허 침해 맞고소</description>
     </item>
     
   </channel>
