@@ -2,193 +2,193 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on jbear&#39;s Blog</title>
-    <link>http://blog.jbear.co/post/</link>
+    <link>blog.jbear.co/post/</link>
     <description>Recent content in Posts on jbear&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright jbear All right Reserved</copyright>
     <lastBuildDate>Mon, 01 Jan 2018 23:59:16 +0900</lastBuildDate>
     
-	<atom:link href="http://blog.jbear.co/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="blog.jbear.co/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>2018년 새해는 무얼할까?</title>
-      <link>http://blog.jbear.co/post/2018%EB%85%84_%EC%83%88%ED%95%B4_%EC%8B%9C%EC%9E%91/</link>
+      <link>blog.jbear.co/post/2018%EB%85%84_%EC%83%88%ED%95%B4_%EC%8B%9C%EC%9E%91/</link>
       <pubDate>Mon, 01 Jan 2018 23:59:16 +0900</pubDate>
       
-      <guid>http://blog.jbear.co/post/2018%EB%85%84_%EC%83%88%ED%95%B4_%EC%8B%9C%EC%9E%91/</guid>
+      <guid>blog.jbear.co/post/2018%EB%85%84_%EC%83%88%ED%95%B4_%EC%8B%9C%EC%9E%91/</guid>
       <description>이번 한해는 회사일보다 나 자신을 위해 더 시간을 쏟고 싶다. 작년에 블록체인과 AI 둘 중 나는 AI를 선택했었는데. 막상 1년이 지난 지금 나는 둘 다 놓친 느낌이다. 이번</description>
     </item>
     
     <item>
       <title>NEW START</title>
-      <link>http://blog.jbear.co/post/newstart/</link>
+      <link>blog.jbear.co/post/newstart/</link>
       <pubDate>Sun, 23 Jul 2017 23:59:16 +0900</pubDate>
       
-      <guid>http://blog.jbear.co/post/newstart/</guid>
+      <guid>blog.jbear.co/post/newstart/</guid>
       <description>블로그를 사용할때는 항상 개인 서버를 사용해서 데이터를 관리하곤 했었다. 이 점이 불편하여 이제는 나도 static site generator 를 이용해 블로그를 관리하려 한다. Open Source가</description>
     </item>
     
     <item>
       <title>17년 계획 세우기</title>
-      <link>http://blog.jbear.co/post/17%E1%84%82%E1%85%A7%E1%86%AB_%E1%84%80%E1%85%A8%E1%84%92%E1%85%AC%E1%86%A8_%E1%84%89%E1%85%A6%E1%84%8B%E1%85%AE%E1%84%80%E1%85%B5/</link>
+      <link>blog.jbear.co/post/17%E1%84%82%E1%85%A7%E1%86%AB_%E1%84%80%E1%85%A8%E1%84%92%E1%85%AC%E1%86%A8_%E1%84%89%E1%85%A6%E1%84%8B%E1%85%AE%E1%84%80%E1%85%B5/</link>
       <pubDate>Sun, 01 Jan 2017 00:04:08 +0900</pubDate>
       
-      <guid>http://blog.jbear.co/post/17%E1%84%82%E1%85%A7%E1%86%AB_%E1%84%80%E1%85%A8%E1%84%92%E1%85%AC%E1%86%A8_%E1%84%89%E1%85%A6%E1%84%8B%E1%85%AE%E1%84%80%E1%85%B5/</guid>
+      <guid>blog.jbear.co/post/17%E1%84%82%E1%85%A7%E1%86%AB_%E1%84%80%E1%85%A8%E1%84%92%E1%85%AC%E1%86%A8_%E1%84%89%E1%85%A6%E1%84%8B%E1%85%AE%E1%84%80%E1%85%B5/</guid>
       <description>16년은 아무런 계획 없이 시작했던 한해. 사내 벤쳐 조직인 C-Lab을 하며 정신없이 16년을 맞이한 탓이 컸다. 고향에서 신정을 보내고, 연휴 끝나자마자 대전으</description>
     </item>
     
     <item>
       <title>시간이 참 빠르다</title>
-      <link>http://blog.jbear.co/post/%E1%84%89%E1%85%B5%E1%84%80%E1%85%A1%E1%86%AB%E1%84%8B%E1%85%B5_%E1%84%8E%E1%85%A1%E1%86%B7_%E1%84%88%E1%85%A1%E1%84%85%E1%85%B3%E1%84%83%E1%85%A1/</link>
+      <link>blog.jbear.co/post/%E1%84%89%E1%85%B5%E1%84%80%E1%85%A1%E1%86%AB%E1%84%8B%E1%85%B5_%E1%84%8E%E1%85%A1%E1%86%B7_%E1%84%88%E1%85%A1%E1%84%85%E1%85%B3%E1%84%83%E1%85%A1/</link>
       <pubDate>Wed, 02 Dec 2015 22:57:07 +0900</pubDate>
       
-      <guid>http://blog.jbear.co/post/%E1%84%89%E1%85%B5%E1%84%80%E1%85%A1%E1%86%AB%E1%84%8B%E1%85%B5_%E1%84%8E%E1%85%A1%E1%86%B7_%E1%84%88%E1%85%A1%E1%84%85%E1%85%B3%E1%84%83%E1%85%A1/</guid>
+      <guid>blog.jbear.co/post/%E1%84%89%E1%85%B5%E1%84%80%E1%85%A1%E1%86%AB%E1%84%8B%E1%85%B5_%E1%84%8E%E1%85%A1%E1%86%B7_%E1%84%88%E1%85%A1%E1%84%85%E1%85%B3%E1%84%83%E1%85%A1/</guid>
       <description>시간이 참 빠르다. 입사하기 전엔 Entrepreneurship이 임직원에게 가장 필요한 마음가짐이라고 생각했었는데 그때의 나는 참 세상을 몰랐던 것 같다.</description>
     </item>
     
     <item>
       <title>삼성전자 DMC 연구소 축소에 대하여</title>
-      <link>http://blog.jbear.co/post/%E1%84%89%E1%85%A1%E1%86%B7%E1%84%89%E1%85%A5%E1%86%BC%E1%84%8C%E1%85%A5%E1%86%AB%E1%84%8C%E1%85%A1_dmc_%E1%84%8B%E1%85%A7%E1%86%AB%E1%84%80%E1%85%AE%E1%84%89%E1%85%A9_%E1%84%8E%E1%85%AE%E1%86%A8%E1%84%89%E1%85%A9%E1%84%8B%E1%85%A6_%E1%84%83%E1%85%A2%E1%84%92%E1%85%A1%E1%84%8B%E1%85%A7/</link>
+      <link>blog.jbear.co/post/%E1%84%89%E1%85%A1%E1%86%B7%E1%84%89%E1%85%A5%E1%86%BC%E1%84%8C%E1%85%A5%E1%86%AB%E1%84%8C%E1%85%A1_dmc_%E1%84%8B%E1%85%A7%E1%86%AB%E1%84%80%E1%85%AE%E1%84%89%E1%85%A9_%E1%84%8E%E1%85%AE%E1%86%A8%E1%84%89%E1%85%A9%E1%84%8B%E1%85%A6_%E1%84%83%E1%85%A2%E1%84%92%E1%85%A1%E1%84%8B%E1%85%A7/</link>
       <pubDate>Sat, 17 Oct 2015 23:05:12 +0900</pubDate>
       
-      <guid>http://blog.jbear.co/post/%E1%84%89%E1%85%A1%E1%86%B7%E1%84%89%E1%85%A5%E1%86%BC%E1%84%8C%E1%85%A5%E1%86%AB%E1%84%8C%E1%85%A1_dmc_%E1%84%8B%E1%85%A7%E1%86%AB%E1%84%80%E1%85%AE%E1%84%89%E1%85%A9_%E1%84%8E%E1%85%AE%E1%86%A8%E1%84%89%E1%85%A9%E1%84%8B%E1%85%A6_%E1%84%83%E1%85%A2%E1%84%92%E1%85%A1%E1%84%8B%E1%85%A7/</guid>
+      <guid>blog.jbear.co/post/%E1%84%89%E1%85%A1%E1%86%B7%E1%84%89%E1%85%A5%E1%86%BC%E1%84%8C%E1%85%A5%E1%86%AB%E1%84%8C%E1%85%A1_dmc_%E1%84%8B%E1%85%A7%E1%86%AB%E1%84%80%E1%85%AE%E1%84%89%E1%85%A9_%E1%84%8E%E1%85%AE%E1%86%A8%E1%84%89%E1%85%A9%E1%84%8B%E1%85%A6_%E1%84%83%E1%85%A2%E1%84%92%E1%85%A1%E1%84%8B%E1%85%A7/</guid>
       <description>첫 입사한 조직이 DMC 연구소인 만큼 이번 아쉬움도 크다. 연구소 조직은 약 2000여명. 여기서 500명만 남고 대부분 사업부로 전진배치. 이제는 각 사업부들도 어느</description>
     </item>
     
     <item>
       <title>Creative Lab 본격적인 Start 150901</title>
-      <link>http://blog.jbear.co/post/creative_lab_%E1%84%87%E1%85%A9%E1%86%AB%E1%84%80%E1%85%A7%E1%86%A8%E1%84%8C%E1%85%A5%E1%86%A8%E1%84%8B%E1%85%B5%E1%86%AB_start_150901/</link>
+      <link>blog.jbear.co/post/creative_lab_%E1%84%87%E1%85%A9%E1%86%AB%E1%84%80%E1%85%A7%E1%86%A8%E1%84%8C%E1%85%A5%E1%86%A8%E1%84%8B%E1%85%B5%E1%86%AB_start_150901/</link>
       <pubDate>Tue, 01 Sep 2015 23:12:04 +0900</pubDate>
       
-      <guid>http://blog.jbear.co/post/creative_lab_%E1%84%87%E1%85%A9%E1%86%AB%E1%84%80%E1%85%A7%E1%86%A8%E1%84%8C%E1%85%A5%E1%86%A8%E1%84%8B%E1%85%B5%E1%86%AB_start_150901/</guid>
+      <guid>blog.jbear.co/post/creative_lab_%E1%84%87%E1%85%A9%E1%86%AB%E1%84%80%E1%85%A7%E1%86%A8%E1%84%8C%E1%85%A5%E1%86%A8%E1%84%8B%E1%85%B5%E1%86%AB_start_150901/</guid>
       <description>직급이 사라지고 자율출퇴근제보다도 더 자유로운 재량근로제가 시작된 첫 날. C-Lab의 시작은 정확히는 7월 1일이었지만 이제서야 진짜라는 느낌이 온다. 재량</description>
     </item>
     
     <item>
       <title>2015년 목표</title>
-      <link>http://blog.jbear.co/post/2015%E1%84%82%E1%85%A7%E1%86%AB_%E1%84%86%E1%85%A9%E1%86%A8%E1%84%91%E1%85%AD/</link>
+      <link>blog.jbear.co/post/2015%E1%84%82%E1%85%A7%E1%86%AB_%E1%84%86%E1%85%A9%E1%86%A8%E1%84%91%E1%85%AD/</link>
       <pubDate>Tue, 06 Jan 2015 23:48:36 +0900</pubDate>
       
-      <guid>http://blog.jbear.co/post/2015%E1%84%82%E1%85%A7%E1%86%AB_%E1%84%86%E1%85%A9%E1%86%A8%E1%84%91%E1%85%AD/</guid>
+      <guid>blog.jbear.co/post/2015%E1%84%82%E1%85%A7%E1%86%AB_%E1%84%86%E1%85%A9%E1%86%A8%E1%84%91%E1%85%AD/</guid>
       <description>2015년 목표 자만심, 게으름을 버리고 새로운 분야에 도전. 블로깅 - 1달 1 post : 게으름을 이겨보자! 가능하면 기술적인 포스팅을 쓰고 싶다. 블로깅을 안한지 너</description>
     </item>
     
     <item>
       <title>Cross Platform Tools</title>
-      <link>http://blog.jbear.co/post/crossplatformtools/</link>
+      <link>blog.jbear.co/post/crossplatformtools/</link>
       <pubDate>Mon, 24 Mar 2014 23:49:37 +0900</pubDate>
       
-      <guid>http://blog.jbear.co/post/crossplatformtools/</guid>
+      <guid>blog.jbear.co/post/crossplatformtools/</guid>
       <description>음.. 작년 이맘때만 하더라도 CPTs에 미쳐있었는데.. 지금은 오히려 부정하는 기술 중 하나다. 아래는 작년에 입사 에세이로 썼었던 글. 다시 읽어보면서 나도 모</description>
     </item>
     
     <item>
       <title>삶의활기</title>
-      <link>http://blog.jbear.co/post/%E1%84%89%E1%85%A1%E1%86%B1%E1%84%8B%E1%85%B4%E1%84%92%E1%85%AA%E1%86%AF%E1%84%80%E1%85%B5/</link>
+      <link>blog.jbear.co/post/%E1%84%89%E1%85%A1%E1%86%B1%E1%84%8B%E1%85%B4%E1%84%92%E1%85%AA%E1%86%AF%E1%84%80%E1%85%B5/</link>
       <pubDate>Sat, 22 Feb 2014 23:49:57 +0900</pubDate>
       
-      <guid>http://blog.jbear.co/post/%E1%84%89%E1%85%A1%E1%86%B1%E1%84%8B%E1%85%B4%E1%84%92%E1%85%AA%E1%86%AF%E1%84%80%E1%85%B5/</guid>
+      <guid>blog.jbear.co/post/%E1%84%89%E1%85%A1%E1%86%B1%E1%84%8B%E1%85%B4%E1%84%92%E1%85%AA%E1%86%AF%E1%84%80%E1%85%B5/</guid>
       <description>일기를 쓰고 싶었는데, 쓸 공간을 적절히 찾지 못해 오랫동안 방치해오던 이 블로그를 재활용하려한다. 요즘 마음이 너무 답답하다. 뭔가 목적을 찾지 못해 방황해서 힘들</description>
     </item>
     
     <item>
       <title>Startup_engineering</title>
-      <link>http://blog.jbear.co/post/startup_engineering/</link>
+      <link>blog.jbear.co/post/startup_engineering/</link>
       <pubDate>Wed, 09 Oct 2013 23:50:16 +0900</pubDate>
       
-      <guid>http://blog.jbear.co/post/startup_engineering/</guid>
+      <guid>blog.jbear.co/post/startup_engineering/</guid>
       <description>재미있고 유익한 강의였다. 전세계적인 스타트업 붐에.. 그리고 세계에는 정말 다양한 알찬 기업들이 많다는 것을 느꼈고, 비록 프로그래밍을 전공으로 하지 않은 일반</description>
     </item>
     
     <item>
       <title>카카오톡에 관해 썼던 견해 정리</title>
-      <link>http://blog.jbear.co/post/%E1%84%8F%E1%85%A1%E1%84%8F%E1%85%A1%E1%84%8B%E1%85%A9%E1%84%90%E1%85%A9%E1%86%A8%E1%84%80%E1%85%A7%E1%86%AB%E1%84%92%E1%85%A2/</link>
+      <link>blog.jbear.co/post/%E1%84%8F%E1%85%A1%E1%84%8F%E1%85%A1%E1%84%8B%E1%85%A9%E1%84%90%E1%85%A9%E1%86%A8%E1%84%80%E1%85%A7%E1%86%AB%E1%84%92%E1%85%A2/</link>
       <pubDate>Mon, 14 Jan 2013 23:50:35 +0900</pubDate>
       
-      <guid>http://blog.jbear.co/post/%E1%84%8F%E1%85%A1%E1%84%8F%E1%85%A1%E1%84%8B%E1%85%A9%E1%84%90%E1%85%A9%E1%86%A8%E1%84%80%E1%85%A7%E1%86%AB%E1%84%92%E1%85%A2/</guid>
+      <guid>blog.jbear.co/post/%E1%84%8F%E1%85%A1%E1%84%8F%E1%85%A1%E1%84%8B%E1%85%A9%E1%84%90%E1%85%A9%E1%86%A8%E1%84%80%E1%85%A7%E1%86%AB%E1%84%92%E1%85%A2/</guid>
       <description>현재 카카오톡이 한국 모바일 플랫폼의 안드로이드화에 미치고 있는 영향에 대해 글을 쓰고 싶다. 통계 찾고 하는게 넘 귀찮아서 나중으로 보류해야겠다~ 페이스북에 정리</description>
     </item>
     
     <item>
       <title>Emplace 울산중구청 일자리관리시스템 개발기</title>
-      <link>http://blog.jbear.co/post/emplace_%E1%84%8B%E1%85%AE%E1%86%AF%E1%84%89%E1%85%A1%E1%86%AB%E1%84%8C%E1%85%AE%E1%86%BC%E1%84%80%E1%85%AE%E1%84%8E%E1%85%A5%E1%86%BC_%E1%84%8B%E1%85%B5%E1%86%AF%E1%84%8C%E1%85%A1%E1%84%85%E1%85%B5%E1%84%80%E1%85%AA%E1%86%AB%E1%84%85%E1%85%B5%E1%84%89%E1%85%B5%E1%84%89%E1%85%B3%E1%84%90%E1%85%A6%E1%86%B7_%E1%84%80%E1%85%A2%E1%84%87%E1%85%A1%E1%86%AF%E1%84%80%E1%85%B5/</link>
+      <link>blog.jbear.co/post/emplace_%E1%84%8B%E1%85%AE%E1%86%AF%E1%84%89%E1%85%A1%E1%86%AB%E1%84%8C%E1%85%AE%E1%86%BC%E1%84%80%E1%85%AE%E1%84%8E%E1%85%A5%E1%86%BC_%E1%84%8B%E1%85%B5%E1%86%AF%E1%84%8C%E1%85%A1%E1%84%85%E1%85%B5%E1%84%80%E1%85%AA%E1%86%AB%E1%84%85%E1%85%B5%E1%84%89%E1%85%B5%E1%84%89%E1%85%B3%E1%84%90%E1%85%A6%E1%86%B7_%E1%84%80%E1%85%A2%E1%84%87%E1%85%A1%E1%86%AF%E1%84%80%E1%85%B5/</link>
       <pubDate>Thu, 27 Dec 2012 00:50:51 +0900</pubDate>
       
-      <guid>http://blog.jbear.co/post/emplace_%E1%84%8B%E1%85%AE%E1%86%AF%E1%84%89%E1%85%A1%E1%86%AB%E1%84%8C%E1%85%AE%E1%86%BC%E1%84%80%E1%85%AE%E1%84%8E%E1%85%A5%E1%86%BC_%E1%84%8B%E1%85%B5%E1%86%AF%E1%84%8C%E1%85%A1%E1%84%85%E1%85%B5%E1%84%80%E1%85%AA%E1%86%AB%E1%84%85%E1%85%B5%E1%84%89%E1%85%B5%E1%84%89%E1%85%B3%E1%84%90%E1%85%A6%E1%86%B7_%E1%84%80%E1%85%A2%E1%84%87%E1%85%A1%E1%86%AF%E1%84%80%E1%85%B5/</guid>
+      <guid>blog.jbear.co/post/emplace_%E1%84%8B%E1%85%AE%E1%86%AF%E1%84%89%E1%85%A1%E1%86%AB%E1%84%8C%E1%85%AE%E1%86%BC%E1%84%80%E1%85%AE%E1%84%8E%E1%85%A5%E1%86%BC_%E1%84%8B%E1%85%B5%E1%86%AF%E1%84%8C%E1%85%A1%E1%84%85%E1%85%B5%E1%84%80%E1%85%AA%E1%86%AB%E1%84%85%E1%85%B5%E1%84%89%E1%85%B5%E1%84%89%E1%85%B3%E1%84%90%E1%85%A6%E1%86%B7_%E1%84%80%E1%85%A2%E1%84%87%E1%85%A1%E1%86%AF%E1%84%80%E1%85%B5/</guid>
       <description>2012년 7월 말, 기쁜 마음을 안고 한국에 돌아온 것도 잠시 한국은 내가 생각한 그 이상으로 바쁘다는 사실을 절실히 깨닫게 되었다. 나는 바로 울산으로 내려갔고, 중</description>
     </item>
     
     <item>
       <title>마크주커버그 패션</title>
-      <link>http://blog.jbear.co/post/%E1%84%86%E1%85%A1%E1%84%8F%E1%85%B3%E1%84%8C%E1%85%AE%E1%84%8F%E1%85%A5%E1%84%87%E1%85%A5%E1%84%80%E1%85%B3%E1%84%91%E1%85%A2%E1%84%89%E1%85%A7%E1%86%AB/</link>
+      <link>blog.jbear.co/post/%E1%84%86%E1%85%A1%E1%84%8F%E1%85%B3%E1%84%8C%E1%85%AE%E1%84%8F%E1%85%A5%E1%84%87%E1%85%A5%E1%84%80%E1%85%B3%E1%84%91%E1%85%A2%E1%84%89%E1%85%A7%E1%86%AB/</link>
       <pubDate>Fri, 21 Dec 2012 23:52:44 +0900</pubDate>
       
-      <guid>http://blog.jbear.co/post/%E1%84%86%E1%85%A1%E1%84%8F%E1%85%B3%E1%84%8C%E1%85%AE%E1%84%8F%E1%85%A5%E1%84%87%E1%85%A5%E1%84%80%E1%85%B3%E1%84%91%E1%85%A2%E1%84%89%E1%85%A7%E1%86%AB/</guid>
+      <guid>blog.jbear.co/post/%E1%84%86%E1%85%A1%E1%84%8F%E1%85%B3%E1%84%8C%E1%85%AE%E1%84%8F%E1%85%A5%E1%84%87%E1%85%A5%E1%84%80%E1%85%B3%E1%84%91%E1%85%A2%E1%84%89%E1%85%A7%E1%86%AB/</guid>
       <description>프레젠테이션 한번에 기업이나 제품의 이미지가 결정되어 버리기도 하고, 심지어는 한 사람의 운명이 뒤바뀌기도 한다. 물론 어떤 시대라 한들, 프레젠테이션이 중요하</description>
     </item>
     
     <item>
       <title>18대 대선 투표</title>
-      <link>http://blog.jbear.co/post/18%E1%84%83%E1%85%A2%E1%84%83%E1%85%A2%E1%84%89%E1%85%A5%E1%86%AB/</link>
+      <link>blog.jbear.co/post/18%E1%84%83%E1%85%A2%E1%84%83%E1%85%A2%E1%84%89%E1%85%A5%E1%86%AB/</link>
       <pubDate>Fri, 21 Dec 2012 23:50:56 +0900</pubDate>
       
-      <guid>http://blog.jbear.co/post/18%E1%84%83%E1%85%A2%E1%84%83%E1%85%A2%E1%84%89%E1%85%A5%E1%86%AB/</guid>
+      <guid>blog.jbear.co/post/18%E1%84%83%E1%85%A2%E1%84%83%E1%85%A2%E1%84%89%E1%85%A5%E1%86%AB/</guid>
       <description>고민에 고민을 거듭했던 이번 18대 대선 투표. 참 늦은 후기를 남긴다. 개인적으로 중도우파 성향을 가지고 있는 나지만 선택은 쉽지 않았다. 경상도출신하면 모두 보수</description>
     </item>
     
     <item>
       <title>SNS가 패션에 끼치는 영향</title>
-      <link>http://blog.jbear.co/post/sns%E1%84%91%E1%85%A2%E1%84%89%E1%85%A7%E1%86%AB/</link>
+      <link>blog.jbear.co/post/sns%E1%84%91%E1%85%A2%E1%84%89%E1%85%A7%E1%86%AB/</link>
       <pubDate>Wed, 12 Dec 2012 23:51:13 +0900</pubDate>
       
-      <guid>http://blog.jbear.co/post/sns%E1%84%91%E1%85%A2%E1%84%89%E1%85%A7%E1%86%AB/</guid>
+      <guid>blog.jbear.co/post/sns%E1%84%91%E1%85%A2%E1%84%89%E1%85%A7%E1%86%AB/</guid>
       <description>소셜네트워크는 참 오랜 역사를 가진 서비스이다. 용어 자체는 페이스북을 영화화한 &amp;lsquo;소셜네트워크&amp;rsquo; 가 개봉한 이래로 자주 등장하게되었</description>
     </item>
     
     <item>
       <title>매력적인 폰, 아이폰5</title>
-      <link>http://blog.jbear.co/post/%E1%84%8B%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%91%E1%85%A9%E1%86%AB5/</link>
+      <link>blog.jbear.co/post/%E1%84%8B%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%91%E1%85%A9%E1%86%AB5/</link>
       <pubDate>Sun, 09 Dec 2012 23:51:22 +0900</pubDate>
       
-      <guid>http://blog.jbear.co/post/%E1%84%8B%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%91%E1%85%A9%E1%86%AB5/</guid>
+      <guid>blog.jbear.co/post/%E1%84%8B%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%91%E1%85%A9%E1%86%AB5/</guid>
       <description>무슨 제품이든 모든 소비자들에게 만족을 줄 수는 없는 것 같다. 어떤 사람들에게는 아이폰3 시절 물방울 모양의 유선형태를 선호하는 경향이 있는가 하면, 아이폰4의 앞</description>
     </item>
     
     <item>
       <title>Democracy Prep Public School</title>
-      <link>http://blog.jbear.co/post/democracypreppublicschool/</link>
+      <link>blog.jbear.co/post/democracypreppublicschool/</link>
       <pubDate>Thu, 06 Dec 2012 23:51:46 +0900</pubDate>
       
-      <guid>http://blog.jbear.co/post/democracypreppublicschool/</guid>
+      <guid>blog.jbear.co/post/democracypreppublicschool/</guid>
       <description>참 아름다운 비전을 이뤄가고 있는 학교. Democracy Prep public School 2006년에 뉴욕의 가장 못사는 지역인 할렘가에서 100명으로 시작한 학교가 지금은 뉴욕시로부터 투자받아 6개</description>
     </item>
     
     <item>
       <title>커피광고에 적용된 광고심리학</title>
-      <link>http://blog.jbear.co/post/%E1%84%8F%E1%85%A5%E1%84%91%E1%85%B5%E1%84%80%E1%85%AA%E1%86%BC%E1%84%80%E1%85%A9/</link>
+      <link>blog.jbear.co/post/%E1%84%8F%E1%85%A5%E1%84%91%E1%85%B5%E1%84%80%E1%85%AA%E1%86%BC%E1%84%80%E1%85%A9/</link>
       <pubDate>Sat, 01 Dec 2012 23:52:15 +0900</pubDate>
       
-      <guid>http://blog.jbear.co/post/%E1%84%8F%E1%85%A5%E1%84%91%E1%85%B5%E1%84%80%E1%85%AA%E1%86%BC%E1%84%80%E1%85%A9/</guid>
+      <guid>blog.jbear.co/post/%E1%84%8F%E1%85%A5%E1%84%91%E1%85%B5%E1%84%80%E1%85%AA%E1%86%BC%E1%84%80%E1%85%A9/</guid>
       <description>어떤 커피를 먹을까? 나는 광고에 남다른 애착이 있다. 개인적으로는 광고와 소프트웨어, 그리고 디자인이 세상을 바꾸는 가장 강력한 무기(Distruptive</description>
     </item>
     
     <item>
       <title>국제협력요원 존폐 여부에 관하여</title>
-      <link>http://blog.jbear.co/post/%E1%84%80%E1%85%AE%E1%86%A8%E1%84%8C%E1%85%A6%E1%84%92%E1%85%A7%E1%86%B8%E1%84%85%E1%85%A7%E1%86%A8%E1%84%8B%E1%85%AD%E1%84%8B%E1%85%AF%E1%86%AB/</link>
+      <link>blog.jbear.co/post/%E1%84%80%E1%85%AE%E1%86%A8%E1%84%8C%E1%85%A6%E1%84%92%E1%85%A7%E1%86%B8%E1%84%85%E1%85%A7%E1%86%A8%E1%84%8B%E1%85%AD%E1%84%8B%E1%85%AF%E1%86%AB/</link>
       <pubDate>Thu, 08 Nov 2012 23:52:23 +0900</pubDate>
       
-      <guid>http://blog.jbear.co/post/%E1%84%80%E1%85%AE%E1%86%A8%E1%84%8C%E1%85%A6%E1%84%92%E1%85%A7%E1%86%B8%E1%84%85%E1%85%A7%E1%86%A8%E1%84%8B%E1%85%AD%E1%84%8B%E1%85%AF%E1%86%AB/</guid>
+      <guid>blog.jbear.co/post/%E1%84%80%E1%85%AE%E1%86%A8%E1%84%8C%E1%85%A6%E1%84%92%E1%85%A7%E1%86%B8%E1%84%85%E1%85%A7%E1%86%A8%E1%84%8B%E1%85%AD%E1%84%8B%E1%85%AF%E1%86%AB/</guid>
       <description>대한민국에는 현역복무대상자들이 보충역으로 지원가능한 다양한 군대체복무제도가 있다. 대표적으로는 많은 사람들이 알고 있는 소위 &amp;lsquo;병역특례&amp;r</description>
     </item>
     
     <item>
       <title>삼성과 애플의 특허 전쟁</title>
-      <link>http://blog.jbear.co/post/%E1%84%89%E1%85%A1%E1%86%B7%E1%84%89%E1%85%A5%E1%86%BC%E1%84%8B%E1%85%A2%E1%84%91%E1%85%B3%E1%86%AF%E1%84%90%E1%85%B3%E1%86%A8%E1%84%92%E1%85%A5/</link>
+      <link>blog.jbear.co/post/%E1%84%89%E1%85%A1%E1%86%B7%E1%84%89%E1%85%A5%E1%86%BC%E1%84%8B%E1%85%A2%E1%84%91%E1%85%B3%E1%86%AF%E1%84%90%E1%85%B3%E1%86%A8%E1%84%92%E1%85%A5/</link>
       <pubDate>Sat, 20 Oct 2012 23:52:35 +0900</pubDate>
       
-      <guid>http://blog.jbear.co/post/%E1%84%89%E1%85%A1%E1%86%B7%E1%84%89%E1%85%A5%E1%86%BC%E1%84%8B%E1%85%A2%E1%84%91%E1%85%B3%E1%86%AF%E1%84%90%E1%85%B3%E1%86%A8%E1%84%92%E1%85%A5/</guid>
+      <guid>blog.jbear.co/post/%E1%84%89%E1%85%A1%E1%86%B7%E1%84%89%E1%85%A5%E1%86%BC%E1%84%8B%E1%85%A2%E1%84%91%E1%85%B3%E1%86%AF%E1%84%90%E1%85%B3%E1%86%A8%E1%84%92%E1%85%A5/</guid>
       <description>2011년 4월부터 시작된 특허전쟁은 아직 끝이 나지 않았다. 처음에 애플이 제기한 디자인 특허 침해 소송을 시작으로 불이 붙은 이 전쟁은 삼성의 통신 특허 침해 맞고소</description>
     </item>
     

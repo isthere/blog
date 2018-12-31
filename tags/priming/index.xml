@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Priming on jbear&#39;s Blog</title>
-    <link>http://blog.jbear.co/tags/priming/</link>
+    <link>blog.jbear.co/tags/priming/</link>
     <description>Recent content in Priming on jbear&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright jbear All right Reserved</copyright>
     <lastBuildDate>Sat, 20 Oct 2012 23:52:35 +0900</lastBuildDate>
     
-	<atom:link href="http://blog.jbear.co/tags/priming/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="blog.jbear.co/tags/priming/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>삼성과 애플의 특허 전쟁</title>
-      <link>http://blog.jbear.co/post/%E1%84%89%E1%85%A1%E1%86%B7%E1%84%89%E1%85%A5%E1%86%BC%E1%84%8B%E1%85%A2%E1%84%91%E1%85%B3%E1%86%AF%E1%84%90%E1%85%B3%E1%86%A8%E1%84%92%E1%85%A5/</link>
+      <link>blog.jbear.co/post/%E1%84%89%E1%85%A1%E1%86%B7%E1%84%89%E1%85%A5%E1%86%BC%E1%84%8B%E1%85%A2%E1%84%91%E1%85%B3%E1%86%AF%E1%84%90%E1%85%B3%E1%86%A8%E1%84%92%E1%85%A5/</link>
       <pubDate>Sat, 20 Oct 2012 23:52:35 +0900</pubDate>
       
-      <guid>http://blog.jbear.co/post/%E1%84%89%E1%85%A1%E1%86%B7%E1%84%89%E1%85%A5%E1%86%BC%E1%84%8B%E1%85%A2%E1%84%91%E1%85%B3%E1%86%AF%E1%84%90%E1%85%B3%E1%86%A8%E1%84%92%E1%85%A5/</guid>
+      <guid>blog.jbear.co/post/%E1%84%89%E1%85%A1%E1%86%B7%E1%84%89%E1%85%A5%E1%86%BC%E1%84%8B%E1%85%A2%E1%84%91%E1%85%B3%E1%86%AF%E1%84%90%E1%85%B3%E1%86%A8%E1%84%92%E1%85%A5/</guid>
       <description>2011년 4월부터 시작된 특허전쟁은 아직 끝이 나지 않았다. 처음에 애플이 제기한 디자인 특허 침해 소송을 시작으로 불이 붙은 이 전쟁은 삼성의 통신 특허 침해 맞고소</description>
     </item>
     

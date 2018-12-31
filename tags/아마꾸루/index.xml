@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>아마꾸루 on jbear&#39;s Blog</title>
-    <link>http://blog.jbear.co/tags/%EC%95%84%EB%A7%88%EA%BE%B8%EB%A3%A8/</link>
+    <link>blog.jbear.co/tags/%EC%95%84%EB%A7%88%EA%BE%B8%EB%A3%A8/</link>
     <description>Recent content in 아마꾸루 on jbear&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright jbear All right Reserved</copyright>
     <lastBuildDate>Fri, 27 Jan 2012 23:54:50 +0900</lastBuildDate>
     
-	<atom:link href="http://blog.jbear.co/tags/%EC%95%84%EB%A7%88%EA%BE%B8%EB%A3%A8/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="blog.jbear.co/tags/%EC%95%84%EB%A7%88%EA%BE%B8%EB%A3%A8/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>코이카선임단원</title>
-      <link>http://blog.jbear.co/post/%E1%84%8F%E1%85%A9%E1%84%8B%E1%85%B5%E1%84%8F%E1%85%A1%E1%84%89%E1%85%A5%E1%86%AB%E1%84%8B%E1%85%B5%E1%86%B7%E1%84%83%E1%85%A1%E1%86%AB%E1%84%8B%E1%85%AF%E1%86%AB/</link>
+      <link>blog.jbear.co/post/%E1%84%8F%E1%85%A9%E1%84%8B%E1%85%B5%E1%84%8F%E1%85%A1%E1%84%89%E1%85%A5%E1%86%AB%E1%84%8B%E1%85%B5%E1%86%B7%E1%84%83%E1%85%A1%E1%86%AB%E1%84%8B%E1%85%AF%E1%86%AB/</link>
       <pubDate>Fri, 27 Jan 2012 23:54:50 +0900</pubDate>
       
-      <guid>http://blog.jbear.co/post/%E1%84%8F%E1%85%A9%E1%84%8B%E1%85%B5%E1%84%8F%E1%85%A1%E1%84%89%E1%85%A5%E1%86%AB%E1%84%8B%E1%85%B5%E1%86%B7%E1%84%83%E1%85%A1%E1%86%AB%E1%84%8B%E1%85%AF%E1%86%AB/</guid>
+      <guid>blog.jbear.co/post/%E1%84%8F%E1%85%A9%E1%84%8B%E1%85%B5%E1%84%8F%E1%85%A1%E1%84%89%E1%85%A5%E1%86%AB%E1%84%8B%E1%85%B5%E1%86%B7%E1%84%83%E1%85%A1%E1%86%AB%E1%84%8B%E1%85%AF%E1%86%AB/</guid>
       <description>아프리카 르완다에서 해외 봉사활동을 해나가면서 주변 지인들이 기술로 봉사한 경험담이 담긴 책이 두권이나 나왔다. 해외 봉사에 관심이 있는 분들에게 추천하고 싶은 책</description>
     </item>
     

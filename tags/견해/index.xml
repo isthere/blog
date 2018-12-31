@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>견해 on jbear&#39;s Blog</title>
-    <link>http://blog.jbear.co/tags/%EA%B2%AC%ED%95%B4/</link>
+    <link>blog.jbear.co/tags/%EA%B2%AC%ED%95%B4/</link>
     <description>Recent content in 견해 on jbear&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright jbear All right Reserved</copyright>
     <lastBuildDate>Mon, 14 Jan 2013 23:50:35 +0900</lastBuildDate>
     
-	<atom:link href="http://blog.jbear.co/tags/%EA%B2%AC%ED%95%B4/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="blog.jbear.co/tags/%EA%B2%AC%ED%95%B4/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>카카오톡에 관해 썼던 견해 정리</title>
-      <link>http://blog.jbear.co/post/%E1%84%8F%E1%85%A1%E1%84%8F%E1%85%A1%E1%84%8B%E1%85%A9%E1%84%90%E1%85%A9%E1%86%A8%E1%84%80%E1%85%A7%E1%86%AB%E1%84%92%E1%85%A2/</link>
+      <link>blog.jbear.co/post/%E1%84%8F%E1%85%A1%E1%84%8F%E1%85%A1%E1%84%8B%E1%85%A9%E1%84%90%E1%85%A9%E1%86%A8%E1%84%80%E1%85%A7%E1%86%AB%E1%84%92%E1%85%A2/</link>
       <pubDate>Mon, 14 Jan 2013 23:50:35 +0900</pubDate>
       
-      <guid>http://blog.jbear.co/post/%E1%84%8F%E1%85%A1%E1%84%8F%E1%85%A1%E1%84%8B%E1%85%A9%E1%84%90%E1%85%A9%E1%86%A8%E1%84%80%E1%85%A7%E1%86%AB%E1%84%92%E1%85%A2/</guid>
+      <guid>blog.jbear.co/post/%E1%84%8F%E1%85%A1%E1%84%8F%E1%85%A1%E1%84%8B%E1%85%A9%E1%84%90%E1%85%A9%E1%86%A8%E1%84%80%E1%85%A7%E1%86%AB%E1%84%92%E1%85%A2/</guid>
       <description>현재 카카오톡이 한국 모바일 플랫폼의 안드로이드화에 미치고 있는 영향에 대해 글을 쓰고 싶다. 통계 찾고 하는게 넘 귀찮아서 나중으로 보류해야겠다~ 페이스북에 정리</description>
     </item>
     

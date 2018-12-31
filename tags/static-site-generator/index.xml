@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Static Site Generator on jbear&#39;s Blog</title>
-    <link>http://blog.jbear.co/tags/static-site-generator/</link>
+    <link>blog.jbear.co/tags/static-site-generator/</link>
     <description>Recent content in Static Site Generator on jbear&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright jbear All right Reserved</copyright>
     <lastBuildDate>Sun, 23 Jul 2017 23:59:16 +0900</lastBuildDate>
     
-	<atom:link href="http://blog.jbear.co/tags/static-site-generator/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="blog.jbear.co/tags/static-site-generator/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>NEW START</title>
-      <link>http://blog.jbear.co/post/newstart/</link>
+      <link>blog.jbear.co/post/newstart/</link>
       <pubDate>Sun, 23 Jul 2017 23:59:16 +0900</pubDate>
       
-      <guid>http://blog.jbear.co/post/newstart/</guid>
+      <guid>blog.jbear.co/post/newstart/</guid>
       <description>블로그를 사용할때는 항상 개인 서버를 사용해서 데이터를 관리하곤 했었다. 이 점이 불편하여 이제는 나도 static site generator 를 이용해 블로그를 관리하려 한다. Open Source가</description>
     </item>
     

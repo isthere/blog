@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pinterest on jbear&#39;s Blog</title>
-    <link>http://blog.jbear.co/tags/pinterest/</link>
+    <link>blog.jbear.co/tags/pinterest/</link>
     <description>Recent content in Pinterest on jbear&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright jbear All right Reserved</copyright>
     <lastBuildDate>Wed, 12 Dec 2012 23:51:13 +0900</lastBuildDate>
     
-	<atom:link href="http://blog.jbear.co/tags/pinterest/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="blog.jbear.co/tags/pinterest/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>SNS가 패션에 끼치는 영향</title>
-      <link>http://blog.jbear.co/post/sns%E1%84%91%E1%85%A2%E1%84%89%E1%85%A7%E1%86%AB/</link>
+      <link>blog.jbear.co/post/sns%E1%84%91%E1%85%A2%E1%84%89%E1%85%A7%E1%86%AB/</link>
       <pubDate>Wed, 12 Dec 2012 23:51:13 +0900</pubDate>
       
-      <guid>http://blog.jbear.co/post/sns%E1%84%91%E1%85%A2%E1%84%89%E1%85%A7%E1%86%AB/</guid>
+      <guid>blog.jbear.co/post/sns%E1%84%91%E1%85%A2%E1%84%89%E1%85%A7%E1%86%AB/</guid>
       <description>소셜네트워크는 참 오랜 역사를 가진 서비스이다. 용어 자체는 페이스북을 영화화한 &amp;lsquo;소셜네트워크&amp;rsquo; 가 개봉한 이래로 자주 등장하게되었</description>
     </item>
     

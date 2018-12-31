@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>댓글 on jbear&#39;s Blog</title>
-    <link>http://blog.jbear.co/tags/%EB%8C%93%EA%B8%80/</link>
+    <link>blog.jbear.co/tags/%EB%8C%93%EA%B8%80/</link>
     <description>Recent content in 댓글 on jbear&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright jbear All right Reserved</copyright>
     <lastBuildDate>Tue, 07 Feb 2012 23:53:39 +0900</lastBuildDate>
     
-	<atom:link href="http://blog.jbear.co/tags/%EB%8C%93%EA%B8%80/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="blog.jbear.co/tags/%EB%8C%93%EA%B8%80/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>자동 스팸 댓글에 대한 나의 견해</title>
-      <link>http://blog.jbear.co/post/%E1%84%8C%E1%85%A1%E1%84%83%E1%85%A9%E1%86%BC%E1%84%89%E1%85%B3%E1%84%91%E1%85%A2%E1%86%B7%E1%84%83%E1%85%A2%E1%86%BA%E1%84%80%E1%85%B3%E1%86%AF/</link>
+      <link>blog.jbear.co/post/%E1%84%8C%E1%85%A1%E1%84%83%E1%85%A9%E1%86%BC%E1%84%89%E1%85%B3%E1%84%91%E1%85%A2%E1%86%B7%E1%84%83%E1%85%A2%E1%86%BA%E1%84%80%E1%85%B3%E1%86%AF/</link>
       <pubDate>Tue, 07 Feb 2012 23:53:39 +0900</pubDate>
       
-      <guid>http://blog.jbear.co/post/%E1%84%8C%E1%85%A1%E1%84%83%E1%85%A9%E1%86%BC%E1%84%89%E1%85%B3%E1%84%91%E1%85%A2%E1%86%B7%E1%84%83%E1%85%A2%E1%86%BA%E1%84%80%E1%85%B3%E1%86%AF/</guid>
+      <guid>blog.jbear.co/post/%E1%84%8C%E1%85%A1%E1%84%83%E1%85%A9%E1%86%BC%E1%84%89%E1%85%B3%E1%84%91%E1%85%A2%E1%86%B7%E1%84%83%E1%85%A2%E1%86%BA%E1%84%80%E1%85%B3%E1%86%AF/</guid>
       <description>블로그 관리를 거의 하지 않다보니, 새로운 방문자들이 생겼다. 검색 로봇들은 매일매일 내 블로그에 들어와 여기저기 링크들을 들쑤시고 다니지만, 그것 말고 다른 녀석</description>
     </item>
     

@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Emplace on jbear&#39;s Blog</title>
-    <link>http://blog.jbear.co/tags/emplace/</link>
+    <link>blog.jbear.co/tags/emplace/</link>
     <description>Recent content in Emplace on jbear&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright jbear All right Reserved</copyright>
     <lastBuildDate>Thu, 27 Dec 2012 00:50:51 +0900</lastBuildDate>
     
-	<atom:link href="http://blog.jbear.co/tags/emplace/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="blog.jbear.co/tags/emplace/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Emplace 울산중구청 일자리관리시스템 개발기</title>
-      <link>http://blog.jbear.co/post/emplace_%E1%84%8B%E1%85%AE%E1%86%AF%E1%84%89%E1%85%A1%E1%86%AB%E1%84%8C%E1%85%AE%E1%86%BC%E1%84%80%E1%85%AE%E1%84%8E%E1%85%A5%E1%86%BC_%E1%84%8B%E1%85%B5%E1%86%AF%E1%84%8C%E1%85%A1%E1%84%85%E1%85%B5%E1%84%80%E1%85%AA%E1%86%AB%E1%84%85%E1%85%B5%E1%84%89%E1%85%B5%E1%84%89%E1%85%B3%E1%84%90%E1%85%A6%E1%86%B7_%E1%84%80%E1%85%A2%E1%84%87%E1%85%A1%E1%86%AF%E1%84%80%E1%85%B5/</link>
+      <link>blog.jbear.co/post/emplace_%E1%84%8B%E1%85%AE%E1%86%AF%E1%84%89%E1%85%A1%E1%86%AB%E1%84%8C%E1%85%AE%E1%86%BC%E1%84%80%E1%85%AE%E1%84%8E%E1%85%A5%E1%86%BC_%E1%84%8B%E1%85%B5%E1%86%AF%E1%84%8C%E1%85%A1%E1%84%85%E1%85%B5%E1%84%80%E1%85%AA%E1%86%AB%E1%84%85%E1%85%B5%E1%84%89%E1%85%B5%E1%84%89%E1%85%B3%E1%84%90%E1%85%A6%E1%86%B7_%E1%84%80%E1%85%A2%E1%84%87%E1%85%A1%E1%86%AF%E1%84%80%E1%85%B5/</link>
       <pubDate>Thu, 27 Dec 2012 00:50:51 +0900</pubDate>
       
-      <guid>http://blog.jbear.co/post/emplace_%E1%84%8B%E1%85%AE%E1%86%AF%E1%84%89%E1%85%A1%E1%86%AB%E1%84%8C%E1%85%AE%E1%86%BC%E1%84%80%E1%85%AE%E1%84%8E%E1%85%A5%E1%86%BC_%E1%84%8B%E1%85%B5%E1%86%AF%E1%84%8C%E1%85%A1%E1%84%85%E1%85%B5%E1%84%80%E1%85%AA%E1%86%AB%E1%84%85%E1%85%B5%E1%84%89%E1%85%B5%E1%84%89%E1%85%B3%E1%84%90%E1%85%A6%E1%86%B7_%E1%84%80%E1%85%A2%E1%84%87%E1%85%A1%E1%86%AF%E1%84%80%E1%85%B5/</guid>
+      <guid>blog.jbear.co/post/emplace_%E1%84%8B%E1%85%AE%E1%86%AF%E1%84%89%E1%85%A1%E1%86%AB%E1%84%8C%E1%85%AE%E1%86%BC%E1%84%80%E1%85%AE%E1%84%8E%E1%85%A5%E1%86%BC_%E1%84%8B%E1%85%B5%E1%86%AF%E1%84%8C%E1%85%A1%E1%84%85%E1%85%B5%E1%84%80%E1%85%AA%E1%86%AB%E1%84%85%E1%85%B5%E1%84%89%E1%85%B5%E1%84%89%E1%85%B3%E1%84%90%E1%85%A6%E1%86%B7_%E1%84%80%E1%85%A2%E1%84%87%E1%85%A1%E1%86%AF%E1%84%80%E1%85%B5/</guid>
       <description>2012년 7월 말, 기쁜 마음을 안고 한국에 돌아온 것도 잠시 한국은 내가 생각한 그 이상으로 바쁘다는 사실을 절실히 깨닫게 되었다. 나는 바로 울산으로 내려갔고, 중</description>
     </item>
     

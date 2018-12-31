@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Startup on jbear&#39;s Blog</title>
-    <link>http://blog.jbear.co/tags/startup/</link>
+    <link>blog.jbear.co/tags/startup/</link>
     <description>Recent content in Startup on jbear&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright jbear All right Reserved</copyright>
     <lastBuildDate>Wed, 09 Oct 2013 23:50:16 +0900</lastBuildDate>
     
-	<atom:link href="http://blog.jbear.co/tags/startup/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="blog.jbear.co/tags/startup/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Startup_engineering</title>
-      <link>http://blog.jbear.co/post/startup_engineering/</link>
+      <link>blog.jbear.co/post/startup_engineering/</link>
       <pubDate>Wed, 09 Oct 2013 23:50:16 +0900</pubDate>
       
-      <guid>http://blog.jbear.co/post/startup_engineering/</guid>
+      <guid>blog.jbear.co/post/startup_engineering/</guid>
       <description>재미있고 유익한 강의였다. 전세계적인 스타트업 붐에.. 그리고 세계에는 정말 다양한 알찬 기업들이 많다는 것을 느꼈고, 비록 프로그래밍을 전공으로 하지 않은 일반</description>
     </item>
     

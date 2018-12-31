@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Crossplatformtools on jbear&#39;s Blog</title>
-    <link>http://blog.jbear.co/tags/crossplatformtools/</link>
+    <link>blog.jbear.co/tags/crossplatformtools/</link>
     <description>Recent content in Crossplatformtools on jbear&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright jbear All right Reserved</copyright>
     <lastBuildDate>Mon, 24 Mar 2014 23:49:37 +0900</lastBuildDate>
     
-	<atom:link href="http://blog.jbear.co/tags/crossplatformtools/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="blog.jbear.co/tags/crossplatformtools/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Cross Platform Tools</title>
-      <link>http://blog.jbear.co/post/crossplatformtools/</link>
+      <link>blog.jbear.co/post/crossplatformtools/</link>
       <pubDate>Mon, 24 Mar 2014 23:49:37 +0900</pubDate>
       
-      <guid>http://blog.jbear.co/post/crossplatformtools/</guid>
+      <guid>blog.jbear.co/post/crossplatformtools/</guid>
       <description>음.. 작년 이맘때만 하더라도 CPTs에 미쳐있었는데.. 지금은 오히려 부정하는 기술 중 하나다. 아래는 작년에 입사 에세이로 썼었던 글. 다시 읽어보면서 나도 모</description>
     </item>
     

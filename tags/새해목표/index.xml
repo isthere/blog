@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>새해목표 on jbear&#39;s Blog</title>
-    <link>http://blog.jbear.co/tags/%EC%83%88%ED%95%B4%EB%AA%A9%ED%91%9C/</link>
+    <link>blog.jbear.co/tags/%EC%83%88%ED%95%B4%EB%AA%A9%ED%91%9C/</link>
     <description>Recent content in 새해목표 on jbear&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright jbear All right Reserved</copyright>
     <lastBuildDate>Tue, 06 Jan 2015 23:48:36 +0900</lastBuildDate>
     
-	<atom:link href="http://blog.jbear.co/tags/%EC%83%88%ED%95%B4%EB%AA%A9%ED%91%9C/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="blog.jbear.co/tags/%EC%83%88%ED%95%B4%EB%AA%A9%ED%91%9C/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>2015년 목표</title>
-      <link>http://blog.jbear.co/post/2015%E1%84%82%E1%85%A7%E1%86%AB_%E1%84%86%E1%85%A9%E1%86%A8%E1%84%91%E1%85%AD/</link>
+      <link>blog.jbear.co/post/2015%E1%84%82%E1%85%A7%E1%86%AB_%E1%84%86%E1%85%A9%E1%86%A8%E1%84%91%E1%85%AD/</link>
       <pubDate>Tue, 06 Jan 2015 23:48:36 +0900</pubDate>
       
-      <guid>http://blog.jbear.co/post/2015%E1%84%82%E1%85%A7%E1%86%AB_%E1%84%86%E1%85%A9%E1%86%A8%E1%84%91%E1%85%AD/</guid>
+      <guid>blog.jbear.co/post/2015%E1%84%82%E1%85%A7%E1%86%AB_%E1%84%86%E1%85%A9%E1%86%A8%E1%84%91%E1%85%AD/</guid>
       <description>2015년 목표 자만심, 게으름을 버리고 새로운 분야에 도전. 블로깅 - 1달 1 post : 게으름을 이겨보자! 가능하면 기술적인 포스팅을 쓰고 싶다. 블로깅을 안한지 너</description>
     </item>
     

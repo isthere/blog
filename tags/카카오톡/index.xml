@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>카카오톡 on jbear&#39;s Blog</title>
-    <link>http://blog.jbear.co/tags/%EC%B9%B4%EC%B9%B4%EC%98%A4%ED%86%A1/</link>
+    <link>blog.jbear.co/tags/%EC%B9%B4%EC%B9%B4%EC%98%A4%ED%86%A1/</link>
     <description>Recent content in 카카오톡 on jbear&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright jbear All right Reserved</copyright>
     <lastBuildDate>Mon, 14 Jan 2013 23:50:35 +0900</lastBuildDate>
     
-	<atom:link href="http://blog.jbear.co/tags/%EC%B9%B4%EC%B9%B4%EC%98%A4%ED%86%A1/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="blog.jbear.co/tags/%EC%B9%B4%EC%B9%B4%EC%98%A4%ED%86%A1/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>카카오톡에 관해 썼던 견해 정리</title>
-      <link>http://blog.jbear.co/post/%E1%84%8F%E1%85%A1%E1%84%8F%E1%85%A1%E1%84%8B%E1%85%A9%E1%84%90%E1%85%A9%E1%86%A8%E1%84%80%E1%85%A7%E1%86%AB%E1%84%92%E1%85%A2/</link>
+      <link>blog.jbear.co/post/%E1%84%8F%E1%85%A1%E1%84%8F%E1%85%A1%E1%84%8B%E1%85%A9%E1%84%90%E1%85%A9%E1%86%A8%E1%84%80%E1%85%A7%E1%86%AB%E1%84%92%E1%85%A2/</link>
       <pubDate>Mon, 14 Jan 2013 23:50:35 +0900</pubDate>
       
-      <guid>http://blog.jbear.co/post/%E1%84%8F%E1%85%A1%E1%84%8F%E1%85%A1%E1%84%8B%E1%85%A9%E1%84%90%E1%85%A9%E1%86%A8%E1%84%80%E1%85%A7%E1%86%AB%E1%84%92%E1%85%A2/</guid>
+      <guid>blog.jbear.co/post/%E1%84%8F%E1%85%A1%E1%84%8F%E1%85%A1%E1%84%8B%E1%85%A9%E1%84%90%E1%85%A9%E1%86%A8%E1%84%80%E1%85%A7%E1%86%AB%E1%84%92%E1%85%A2/</guid>
       <description>현재 카카오톡이 한국 모바일 플랫폼의 안드로이드화에 미치고 있는 영향에 대해 글을 쓰고 싶다. 통계 찾고 하는게 넘 귀찮아서 나중으로 보류해야겠다~ 페이스북에 정리</description>
     </item>
     
     <item>
       <title>뜨거운감자 - 카카오톡 무료통화</title>
-      <link>http://blog.jbear.co/post/%E1%84%8F%E1%85%A1%E1%84%90%E1%85%A9%E1%86%A8%E1%84%86%E1%85%AE%E1%84%85%E1%85%AD%E1%84%90%E1%85%A9%E1%86%BC%E1%84%92%E1%85%AA/</link>
+      <link>blog.jbear.co/post/%E1%84%8F%E1%85%A1%E1%84%90%E1%85%A9%E1%86%A8%E1%84%86%E1%85%AE%E1%84%85%E1%85%AD%E1%84%90%E1%85%A9%E1%86%BC%E1%84%92%E1%85%AA/</link>
       <pubDate>Thu, 07 Jun 2012 23:52:55 +0900</pubDate>
       
-      <guid>http://blog.jbear.co/post/%E1%84%8F%E1%85%A1%E1%84%90%E1%85%A9%E1%86%A8%E1%84%86%E1%85%AE%E1%84%85%E1%85%AD%E1%84%90%E1%85%A9%E1%86%BC%E1%84%92%E1%85%AA/</guid>
+      <guid>blog.jbear.co/post/%E1%84%8F%E1%85%A1%E1%84%90%E1%85%A9%E1%86%A8%E1%84%86%E1%85%AE%E1%84%85%E1%85%AD%E1%84%90%E1%85%A9%E1%86%BC%E1%84%92%E1%85%AA/</guid>
       <description>카카오톡이 한국에서도 무료통화 테스트를 실시하면서, 비로소 데이터 패킷을 이용한 통화가 국내에서도 상용화될 전망이다. 이미 인터넷 전화, 스카이프를 통해 많은</description>
     </item>
     

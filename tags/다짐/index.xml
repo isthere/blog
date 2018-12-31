@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>다짐 on jbear&#39;s Blog</title>
-    <link>http://blog.jbear.co/tags/%EB%8B%A4%EC%A7%90/</link>
+    <link>blog.jbear.co/tags/%EB%8B%A4%EC%A7%90/</link>
     <description>Recent content in 다짐 on jbear&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright jbear All right Reserved</copyright>
     <lastBuildDate>Mon, 01 Jan 2018 23:59:16 +0900</lastBuildDate>
     
-	<atom:link href="http://blog.jbear.co/tags/%EB%8B%A4%EC%A7%90/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="blog.jbear.co/tags/%EB%8B%A4%EC%A7%90/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>2018년 새해는 무얼할까?</title>
-      <link>http://blog.jbear.co/post/2018%EB%85%84_%EC%83%88%ED%95%B4_%EC%8B%9C%EC%9E%91/</link>
+      <link>blog.jbear.co/post/2018%EB%85%84_%EC%83%88%ED%95%B4_%EC%8B%9C%EC%9E%91/</link>
       <pubDate>Mon, 01 Jan 2018 23:59:16 +0900</pubDate>
       
-      <guid>http://blog.jbear.co/post/2018%EB%85%84_%EC%83%88%ED%95%B4_%EC%8B%9C%EC%9E%91/</guid>
+      <guid>blog.jbear.co/post/2018%EB%85%84_%EC%83%88%ED%95%B4_%EC%8B%9C%EC%9E%91/</guid>
       <description>이번 한해는 회사일보다 나 자신을 위해 더 시간을 쏟고 싶다. 작년에 블록체인과 AI 둘 중 나는 AI를 선택했었는데. 막상 1년이 지난 지금 나는 둘 다 놓친 느낌이다. 이번</description>
     </item>
     
