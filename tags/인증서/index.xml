@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>인증서 on jbear&#39;s blog</title>
+    <link>https://blog.jbear.co/tags/%EC%9D%B8%EC%A6%9D%EC%84%9C/</link>
+    <description>Recent content in 인증서 on jbear&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Copyright jbear All right Reserved</copyright>
+    <lastBuildDate>Wed, 06 Feb 2019 10:51:16 +0900</lastBuildDate>
+    
+	<atom:link href="https://blog.jbear.co/tags/%EC%9D%B8%EC%A6%9D%EC%84%9C/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>https 세팅을 무료로 그리고 편하게 관리하기</title>
+      <link>https://blog.jbear.co/post/%E1%84%86%E1%85%AE%E1%84%85%E1%85%AD_https_setting/</link>
+      <pubDate>Wed, 06 Feb 2019 10:51:16 +0900</pubDate>
+      
+      <guid>https://blog.jbear.co/post/%E1%84%86%E1%85%AE%E1%84%85%E1%85%AD_https_setting/</guid>
+      <description>https 세팅을 미루고 미루다 오늘에서야 모두 세팅을 마쳤다. https 암호화 통신은 클라이언트 서버간 가장 기본적으로 적용해볼 수 있는 보안 방법이다. 최근에 https 프로토콜을 적</description>
+    </item>
+    
+  </channel>
+</rss>
