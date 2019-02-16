@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Colab을 사용해보며 &middot; jbear&#39;s blog</title>
+  <meta name="description" content="" />
+  
+  <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
+  
+  <link rel="icon" type="image/png" href="/img/favicon.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css" />
+  <link rel="stylesheet" href="/css/style.css" />
+  <link rel="stylesheet" href="/css/xcode.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.10.0/dist/katex.min.css" integrity="sha384-9eLZqc9ds8eNjO3TmqPeYcDj8n+Qfa4nuSiGYa6DjLNcv9BtN69ZIulL9+8CqC9Y" crossorigin="anonymous">
+  <link rel="stylesheet" href="/css/latolatinfonts.css" />
+  
+  <style>
+    body {
+      background: #ecedef url("/img/ignasi_pattern_s.png") repeat;
+    }
+  </style>
+  
+</head>
+  <body class="single-body">
+    <nav class="nav-bar side-padding">
+  <h1 class="nav-header"><a href="/" class="nav-text">
+    jbear
+  </a></h1>
+  <div class="hamburger-menu">
+		<input type="checkbox" onclick="hamburgerMenuPressed()"/>
+		<span></span>
+		<span></span>
+    <ul class="hamburger-menu-overlay">
+      <li><a href="/" class="hamburger-menu-overlay-link">Home</a></li>
+      
+			<li><a href="https://blog.jbear.co/profile/" class="hamburger-menu-overlay-link">Profile</a></li>
+			
+			<li><a href="https://blog.jbear.co/about/" class="hamburger-menu-overlay-link">About</a></li>
+			
+      
+    </ul>
+  </div>
+</nav>
+    <main class="content side-text-padding">
+      <article class="post dropcase">
+        <header class="post-header">
+        	<h1 class="post-title">Colab을 사용해보며</h1>
+          <p class="post-date">Posted <time datetime="2019-02-17">Feb 17, 2019</time></p>
+        </header>
+        
+        <p><a href="https://colab.research.google.com">https://colab.research.google.com</a></p>
+
+<p>Google의 Colab이라는 서비스가 있다.<br />
+이를 간단하게 정의 하자면</p>
+
+<p>&ldquo;Free Jupyter Notebook based on docker with GPU&rdquo;</p>
+
+<p>도커 위에서 작동하기 때문에 일정 시간동안 리눅스 시스템을 사용할 수 있는 도구라고 볼 수 있으며, GPU, HDD(약 40기가), 메모리 12기가 등 대부분의 학습은 이곳에서 편리하게 사용이 가능하다.</p>
+
+<p>github, google drive와의 연동도 가능한데,<br />
+장점이자 단점이 도커이기 때문에 잘 활용하면 강력한 무기가 될 수 있을 것 같다.</p>
+
+<p>구글이 무서운 이유가 바로 이런 무지막지한 녀석들을 클라우드를 통해 쓸 수 있도록 열어버린다는 점이다. 강력한 소셜 중앙 빅데이터 스토어의 역할을 하는 kaggle부터 모든 이미지의 저장소인 google photos, 클라우드 기반의 office 시스템인 google drive 등 다른 회사들이 쉽게 따라하지 못하는 공격적인 시도들이 지금의 구글을 더 강력하게 만드는 것이 아닐까? 느낌이지만 구글이 클라우드 사업을 시작한 이래로 이런 압도적인 서비스들을 보여주는 것 같다.</p>
+
+      </article>
+      
+      <div id="disqus_thread"></div>
+<script>
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "jbear" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+      
+      
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-103163127-1', 'auto');
+ga('send', 'pageview');
+</script>
+
+    </main>
+    <nav class="end-nav side-padding">
+      
+      <a ontouchstart="cardPressed.call(this)" ontouchend="cardReleased.call(this)" ontouchmove="cardReleased.call(this)" 
+  href="https://blog.jbear.co/post/free_https_setting/" class="card blog-card" rel="bookmark" >
+    
+  <article class="card-body">
+    <h2 class="card-title">https 세팅을 무료로 그리고 편하게 관리하기</h2>
+    <p class="card-text">https 세팅을 미루고 미루다 오늘에서야 모두 세팅을 마쳤다. https 암호화 통신은 클라이언트 서버간 가장 기본적으로 적용해볼 수 있는 보안 방법이다. 최근에 https 프로토콜을 적</p>
+    <div class="card-subtext muted-text">
+      <p>Posted <time datetime="2019-02-06 26:00">Feb 6, 2019</time></p>
+      <p></p>
+    </div>
+  </article>
+</a>
+      
+      <a ontouchstart="cardPressed.call(this)" ontouchend="cardReleased.call(this)" ontouchmove="cardReleased.call(this)" 
+  href="/" class="card home-card" style="background-image: url( /img/grey-cloud.jpg )" rel="bookmark" >
+  Home
+</a>
+    </nav>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.0/dist/katex.min.js" integrity="sha384-K3vbOmF2BtaVai+Qk37uypf7VrgBubhQreNQe9aGsz9lB63dIFiQVlJbr92dw2Lx" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.0/dist/contrib/auto-render.min.js" integrity="sha384-kmZOZB5ObwgQnS/DuDg6TScgOiWWBiVt0plIRkZCmE6rDZGrEOQeHM5PcHi+nyqe" crossorigin="anonymous"
+    onload="renderMathInElement(document.body);"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script type="text/javascript" src="/js/core.js"></script>
+<script>
+  hljs.initHighlightingOnLoad();
+</script>
+  </body>
+</html>

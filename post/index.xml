@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright jbear All right Reserved</copyright>
-    <lastBuildDate>Wed, 06 Feb 2019 10:51:16 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 17 Feb 2019 00:26:09 +0900</lastBuildDate>
     
 	<atom:link href="https://blog.jbear.co/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Colab을 사용해보며</title>
+      <link>https://blog.jbear.co/post/colab-usage/</link>
+      <pubDate>Sun, 17 Feb 2019 00:26:09 +0900</pubDate>
+      
+      <guid>https://blog.jbear.co/post/colab-usage/</guid>
+      <description>https://colab.research.google.com Google의 Colab이라는 서비스가 있다. 이를 간단하게 정의 하자면 &amp;ldquo;Free Jupyter Notebook based on docker with GPU&amp;rdquo; 도커 위에서 작동하기 때문에 일정 시간동안 리눅스 시스템을 사용할</description>
+    </item>
     
     <item>
       <title>https 세팅을 무료로 그리고 편하게 관리하기</title>
@@ -18,6 +27,15 @@
       <pubDate>Wed, 06 Feb 2019 10:51:16 +0900</pubDate>
       
       <guid>https://blog.jbear.co/post/free_https_setting/</guid>
+      <description>https 세팅을 미루고 미루다 오늘에서야 모두 세팅을 마쳤다. https 암호화 통신은 클라이언트 서버간 가장 기본적으로 적용해볼 수 있는 보안 방법이다. 최근에 https 프로토콜을 적</description>
+    </item>
+    
+    <item>
+      <title>https 세팅을 무료로 편하게 관리하기</title>
+      <link>https://blog.jbear.co/post/%E1%84%86%E1%85%AE%E1%84%85%E1%85%AD_https_setting/</link>
+      <pubDate>Wed, 06 Feb 2019 10:51:16 +0900</pubDate>
+      
+      <guid>https://blog.jbear.co/post/%E1%84%86%E1%85%AE%E1%84%85%E1%85%AD_https_setting/</guid>
       <description>https 세팅을 미루고 미루다 오늘에서야 모두 세팅을 마쳤다. https 암호화 통신은 클라이언트 서버간 가장 기본적으로 적용해볼 수 있는 보안 방법이다. 최근에 https 프로토콜을 적</description>
     </item>
     
@@ -172,24 +190,6 @@
       
       <guid>https://blog.jbear.co/post/democracypreppublicschool/</guid>
       <description>참 아름다운 비전을 이뤄가고 있는 학교. Democracy Prep public School 2006년에 뉴욕의 가장 못사는 지역인 할렘가에서 100명으로 시작한 학교가 지금은 뉴욕시로부터 투자받아 6개</description>
-    </item>
-    
-    <item>
-      <title>커피광고에 적용된 광고심리학</title>
-      <link>https://blog.jbear.co/post/%E1%84%8F%E1%85%A5%E1%84%91%E1%85%B5%E1%84%80%E1%85%AA%E1%86%BC%E1%84%80%E1%85%A9/</link>
-      <pubDate>Sat, 01 Dec 2012 23:52:15 +0900</pubDate>
-      
-      <guid>https://blog.jbear.co/post/%E1%84%8F%E1%85%A5%E1%84%91%E1%85%B5%E1%84%80%E1%85%AA%E1%86%BC%E1%84%80%E1%85%A9/</guid>
-      <description>어떤 커피를 먹을까? 나는 광고에 남다른 애착이 있다. 개인적으로는 광고와 소프트웨어, 그리고 디자인이 세상을 바꾸는 가장 강력한 무기(Distruptive</description>
-    </item>
-    
-    <item>
-      <title>국제협력요원 존폐 여부에 관하여</title>
-      <link>https://blog.jbear.co/post/%E1%84%80%E1%85%AE%E1%86%A8%E1%84%8C%E1%85%A6%E1%84%92%E1%85%A7%E1%86%B8%E1%84%85%E1%85%A7%E1%86%A8%E1%84%8B%E1%85%AD%E1%84%8B%E1%85%AF%E1%86%AB/</link>
-      <pubDate>Thu, 08 Nov 2012 23:52:23 +0900</pubDate>
-      
-      <guid>https://blog.jbear.co/post/%E1%84%80%E1%85%AE%E1%86%A8%E1%84%8C%E1%85%A6%E1%84%92%E1%85%A7%E1%86%B8%E1%84%85%E1%85%A7%E1%86%A8%E1%84%8B%E1%85%AD%E1%84%8B%E1%85%AF%E1%86%AB/</guid>
-      <description>대한민국에는 현역복무대상자들이 보충역으로 지원가능한 다양한 군대체복무제도가 있다. 대표적으로는 많은 사람들이 알고 있는 소위 &amp;lsquo;병역특례&amp;r</description>
     </item>
     
   </channel>
