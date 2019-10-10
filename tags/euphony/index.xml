@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright jbear All right Reserved</copyright>
-    <lastBuildDate>Sun, 01 Jan 2017 00:04:08 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 09 Oct 2019 00:26:09 +0900</lastBuildDate>
     
 	<atom:link href="https://blog.jbear.co/tags/euphony/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>euphony.js v.0.2.0 release 및 통신 모듈레이션 방식의 중요성</title>
+      <link>https://blog.jbear.co/post/euphony_intro/</link>
+      <pubDate>Wed, 09 Oct 2019 00:26:09 +0900</pubDate>
+      
+      <guid>https://blog.jbear.co/post/euphony_intro/</guid>
+      <description>음파 통신 라이브러리인 euphony를 소개합니다. euphony는 사람의 귀에 들리지 않는 가청주파수 대역에서도 높은 대역을 활용하여 스피커와 마이크만 가</description>
+    </item>
     
     <item>
       <title>17년 계획 세우기</title>

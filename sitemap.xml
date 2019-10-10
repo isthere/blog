@@ -3,17 +3,17 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://blog.jbear.co/post/euphony_intro/</loc>
+    <lastmod>2019-10-09T00:26:09+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://blog.jbear.co/post/colab-usage/</loc>
     <lastmod>2019-02-17T00:26:09+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://blog.jbear.co/post/free_https_setting/</loc>
-    <lastmod>2019-02-06T10:51:16+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://blog.jbear.co/post/%E1%84%86%E1%85%AE%E1%84%85%E1%85%AD_https_setting/</loc>
     <lastmod>2019-02-06T10:51:16+09:00</lastmod>
   </url>
   
@@ -215,6 +215,12 @@
   </url>
   
   <url>
+    <loc>https://blog.jbear.co/tags/audioworklet/</loc>
+    <lastmod>2019-10-09T00:26:09+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.jbear.co/tags/auto/</loc>
     <lastmod>2019-02-06T10:51:16+09:00</lastmod>
     <priority>0</priority>
@@ -299,7 +305,13 @@
   
   <url>
     <loc>https://blog.jbear.co/tags/euphony/</loc>
-    <lastmod>2017-01-01T00:04:08+09:00</lastmod>
+    <lastmod>2019-10-09T00:26:09+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.jbear.co/tags/euphony.js/</loc>
+    <lastmod>2019-10-09T00:26:09+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -358,6 +370,12 @@
   </url>
   
   <url>
+    <loc>https://blog.jbear.co/tags/javascript/</loc>
+    <lastmod>2019-10-09T00:26:09+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.jbear.co/tags/jbear/</loc>
     <lastmod>2017-01-01T00:04:08+09:00</lastmod>
     <priority>0</priority>
@@ -401,7 +419,7 @@
   
   <url>
     <loc>https://blog.jbear.co/post/</loc>
-    <lastmod>2019-02-17T00:26:09+09:00</lastmod>
+    <lastmod>2019-10-09T00:26:09+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -491,7 +509,7 @@
   
   <url>
     <loc>https://blog.jbear.co/</loc>
-    <lastmod>2019-02-17T00:26:09+09:00</lastmod>
+    <lastmod>2019-10-09T00:26:09+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -570,6 +588,12 @@
   <url>
     <loc>https://blog.jbear.co/tags/%EB%9C%A8%EA%B1%B0%EC%9A%B4%EA%B0%90%EC%9E%90/</loc>
     <lastmod>2012-06-07T23:52:55+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.jbear.co/tags/%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC/</loc>
+    <lastmod>2019-10-09T00:26:09+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -700,6 +724,12 @@
   </url>
   
   <url>
+    <loc>https://blog.jbear.co/tags/%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C/</loc>
+    <lastmod>2019-10-09T00:26:09+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.jbear.co/tags/%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C%ED%99%94/</loc>
     <lastmod>2013-01-14T23:50:35+09:00</lastmod>
     <priority>0</priority>
@@ -718,8 +748,20 @@
   </url>
   
   <url>
+    <loc>https://blog.jbear.co/tags/%EC%9B%B9/</loc>
+    <lastmod>2019-10-09T00:26:09+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.jbear.co/tags/%EC%9C%A0%EA%B0%80%EC%A6%9D%EA%B6%8C%EC%8B%A0%EC%B2%AD%EC%84%9C/</loc>
     <lastmod>2012-02-11T23:53:30+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.jbear.co/tags/%EC%9D%8C%ED%8C%8C%ED%86%B5%EC%8B%A0/</loc>
+    <lastmod>2019-10-09T00:26:09+09:00</lastmod>
     <priority>0</priority>
   </url>
   

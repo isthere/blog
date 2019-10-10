@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>웹 on jbear&#39;s blog</title>
+    <link>https://blog.jbear.co/tags/%EC%9B%B9/</link>
+    <description>Recent content in 웹 on jbear&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Copyright jbear All right Reserved</copyright>
+    <lastBuildDate>Wed, 09 Oct 2019 00:26:09 +0900</lastBuildDate>
+    
+	<atom:link href="https://blog.jbear.co/tags/%EC%9B%B9/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>euphony.js v.0.2.0 release 및 통신 모듈레이션 방식의 중요성</title>
+      <link>https://blog.jbear.co/post/euphony_intro/</link>
+      <pubDate>Wed, 09 Oct 2019 00:26:09 +0900</pubDate>
+      
+      <guid>https://blog.jbear.co/post/euphony_intro/</guid>
+      <description>음파 통신 라이브러리인 euphony를 소개합니다. euphony는 사람의 귀에 들리지 않는 가청주파수 대역에서도 높은 대역을 활용하여 스피커와 마이크만 가</description>
+    </item>
+    
+  </channel>
+</rss>
