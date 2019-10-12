@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="" dir="ltr">
+  <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>통신 모듈레이션 방식에 관한 연구 및 euphony.js v0.2.0 releas &middot; jbear&#39;s blog</title>
+  <meta name="description" content="" />
+  
+  <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
+  
+  <link rel="icon" type="image/png" href="/img/favicon.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css" />
+  <link rel="stylesheet" href="/css/style.css" />
+  <link rel="stylesheet" href="/css/xcode.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.10.0/dist/katex.min.css" integrity="sha384-9eLZqc9ds8eNjO3TmqPeYcDj8n+Qfa4nuSiGYa6DjLNcv9BtN69ZIulL9+8CqC9Y" crossorigin="anonymous">
+  <link rel="stylesheet" href="/css/latolatinfonts.css" />
+  
+  <style>
+    body {
+      background: #ecedef url("/img/ignasi_pattern_s.png") repeat;
+    }
+  </style>
+  
+</head>
+  <body class="single-body">
+    <nav class="nav-bar side-padding">
+  <h1 class="nav-header"><a href="/" class="nav-text">
+    jbear
+  </a></h1>
+  <div class="hamburger-menu">
+		<input type="checkbox" onclick="hamburgerMenuPressed()"/>
+		<span></span>
+		<span></span>
+    <ul class="hamburger-menu-overlay">
+      <li><a href="/" class="hamburger-menu-overlay-link">Home</a></li>
+      
+			<li><a href="https://blog.jbear.co/profile/" class="hamburger-menu-overlay-link">Profile</a></li>
+			
+			<li><a href="https://blog.jbear.co/about/" class="hamburger-menu-overlay-link">About</a></li>
+			
+      
+    </ul>
+  </div>
+</nav>
+    <main class="content side-text-padding">
+      <article class="post dropcase">
+        <header class="post-header">
+        	<h1 class="post-title">통신 모듈레이션 방식에 관한 연구 및 euphony.js v0.2.0 releas</h1>
+          <p class="post-date">Posted <time datetime="2019-10-11">Oct 11, 2019</time></p>
+        </header>
+        
+        
+
+<h3 id="modulation-방식-개선을-통한-속도-향상">Modulation 방식 개선을 통한 속도 향상</h3>
+
+<h4 id="modulation-이란">Modulation 이란?</h4>
+
+<p>디지털 통신에서 데이터를 보내기 위해 0, 1 등의 데이터를 전기적 신호로 만들어주는 방법입니다. 1990년대 PC 통신에서 주로 사용하던 MODEM이 MOdulator and DEModulator의 약자인데, 여기서 Modulator가 데이터를 전기적 신호로 만드는 것이고, Demodulator가 전기적 신호를 다시 디지털 데이터로 변화시키는 역할을 합니다. 모든 유/무선 통신에서 Modulator와 Demodulator는 가장 중요하면서도 통신 성능에 영향을 많이 끼칩니다. 참고로 이동통신에서는 1G가 Frequency Shift Keying 방식을 사용하였고, 2G는 GMSK(Gaussian filtered Minimum Shift Keying)라는 Continuous Frequency Shift Keying의 Main Lobe에 Gaussian filter를 적용해 얇게 만들어 송수신 하는 방식을 사용하였으며, 3G는 QPSK(Quadrature Phase Shift Keying)을, 4G LTE는 QPSK와 QAM(Quadrature Amplitude Modulation)을 그리고 마지막으로 요즘 한창 뜨고 있는 5G는 QAM 연장선상의 기술을 사용합니다. 모든 Modulation 방식은 Amplitude, Frequency, Phase 3가지를 활용한 응용 기술이라고 볼 수 있습니다.</p>
+
+<h4 id="음파-통신-euphony-라이브러리의-기존-모듈레이션-방식">음파 통신 euphony 라이브러리의 기존 모듈레이션 방식</h4>
+
+<p>13년도에 시작된 Euphony 프로젝트는 최초에 ASK라는 Amplitude 기반 변조 방식의 프로토타이핑 성공 이후 본격적으로 개발하게 되었습니다. Amplitude 방식은 라디오에서는 AM 송출 방식이라고 볼 수 있는데, 이는 Volume 세기에 따라 데이터를 주고받는 방식입니다. 0과 1을 데이터로 보낸다면 0은 Volume이 0인 상태 1은 Volume을 100으로 높인 상태라고 볼 수 있습니다. 아래는 euphony.js를 이용해 1과 0을 보여주는 예시입니다.
+<img src="./images/ask_example.gif" alt="Euphony를 통한 ASK 방식 데이터 전송" title="Euphony를 통한 Amplitude Shift Keying 방식 데이터 전송" />
+ASK 방식은 속도가 느립니다. FM과 AM 방식 라디오를 들어보면 FM 방식의 라디오가 훨씬 음질이 좋은데, 이는 Amplitude 기반이 진폭에 따른 데이터 구분 방식이라 잡음에 매우 취약하고 음질도 매우 떨어지기 때문입니다. 따라서 Euphony는 최근까지 Frequency Shift Keying 방식을 사용하고 있었습니다. 이동 통신 기술 개발 방향만 본다면 당연히 PSK와 ASK의 조합 기술이라고 볼 수 있는 QAM 방식을 사용하는 것이 맞다고 볼 수 있으나, 음파에서는 Phase를 조정하게 되면 음이 깨지는 소리가 나기 때문에 Phase가 아닌 가급적 Frequency와 Amplitude를 조합 활용해 데이터를 Modulation 하고 있습니다.
+<img src="./images/picture_2_crossfade.png" alt="Crossfade" title="[기존방식] Frequency와 Crossfaded Amplitude를 조합한 방식의 Modulation" />
+위 그림은 최근까지 사용했던 Euphony의 기존 방식인 Crossfaded Amplitude를 적용한 FSK 모듈레이션입니다. Crossfaded Amplitude를 특정 주파수의 양 끝에 적용함으로써 음이 깨지는 소리가 나지 않습니다. 가청주파수의 높은 대역을 사용하면 소리 자체가 들리지 않으므로 깨지는 소리가 발생하지 않을 것 같지만 Crossfaded Amplitude를 사용하지 않고 그대로 발생시키면 틱틱거리는 소리는 발생하기 때문에 적용하게 된 기술입니다.</p>
+
+<h4 id="euphony-js-v0-2-0-release-continuous-phase-fsk의-적용">euphony.js v0.2.0 release : Continuous Phase FSK의 적용</h4>
+
+<p>이번 v0.2.0 패치를 설명하기 위해 기존 방식에 대한 이야기가 길어졌습니다. 기존에 사용하던 Crossfaded Amplitude 방식의 FSK 또한 단점이 있습니다. Crossfaded Amplitude가 적용된 구간은 결국 Amplitude의 세기가 낮기 때문에 데이터 수신률이 낮다는 점입니다.
+<img src="./images/picture_3_crossfade.png" alt="Crossfade2" title="붉은 음영구간의 낮은 진폭은 데이터 수신률 저하로 이어짐" />
+이번 패치는 서로 다른 주파수간의 phase를 연결시켜줌으로써 틱틱거리는 잡음은 없애주면서 Crossfaded Amplitude 구간을 최소화해 수신률은 높여주는 기술이 적용되었습니다. 기존까지는 100개의 문자를 전송할 때 발생하는 Crossfadeed Amplitude 구간은 25% 였으나, 이번 패치를 통해 전체 데이터의 시작 파트와 마지막 파트만 적용함으로써 0.25% 정도로 확연하게 줄일 수 있게 되었습니다. 이는 Modulator 개선을 통해 수신률이 약 24.75% 이상 향상되었다고 볼 수 있습니다.</p>
+
+      </article>
+      
+      <div id="disqus_thread"></div>
+<script>
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "jbear" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+      
+      
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-103163127-1', 'auto');
+ga('send', 'pageview');
+</script>
+
+    </main>
+    <nav class="end-nav side-padding">
+      
+      <a ontouchstart="cardPressed.call(this)" ontouchend="cardReleased.call(this)" ontouchmove="cardReleased.call(this)" 
+  href="https://blog.jbear.co/post/euphony_intro/" class="card blog-card" rel="bookmark" >
+    
+  <article class="card-body">
+    <h2 class="card-title">euphony 프로젝트를 소개합니다.</h2>
+    <p class="card-text">음파 통신 라이브러리인 euphony를 소개합니다. euphony는 사람의 귀에 들리지 않는 가청주파수 대역에서도 높은 대역을 활용하여 스피커와 마이크만 가</p>
+    <div class="card-subtext muted-text">
+      <p>Posted <time datetime="2019-10-09 109:00">Oct 9, 2019</time></p>
+      <p></p>
+    </div>
+  </article>
+</a>
+      
+      <a ontouchstart="cardPressed.call(this)" ontouchend="cardReleased.call(this)" ontouchmove="cardReleased.call(this)" 
+  href="/" class="card home-card" style="background-image: url( /img/grey-cloud.jpg )" rel="bookmark" >
+  Home
+</a>
+    </nav>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.0/dist/katex.min.js" integrity="sha384-K3vbOmF2BtaVai+Qk37uypf7VrgBubhQreNQe9aGsz9lB63dIFiQVlJbr92dw2Lx" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.0/dist/contrib/auto-render.min.js" integrity="sha384-kmZOZB5ObwgQnS/DuDg6TScgOiWWBiVt0plIRkZCmE6rDZGrEOQeHM5PcHi+nyqe" crossorigin="anonymous"
+    onload="renderMathInElement(document.body);"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script type="text/javascript" src="/js/core.js"></script>
+<script>
+  hljs.initHighlightingOnLoad();
+</script>
+  </body>
+</html>

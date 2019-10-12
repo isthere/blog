@@ -6,13 +6,22 @@
     <description>Recent content on jbear&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Copyright jbear All right Reserved</copyright>
-    <lastBuildDate>Wed, 09 Oct 2019 00:26:09 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 11 Oct 2019 00:26:09 +0900</lastBuildDate>
     
 	<atom:link href="https://blog.jbear.co/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>euphony.js v.0.2.0 release 및 통신 모듈레이션 방식의 중요성</title>
+      <title>통신 모듈레이션 방식에 관한 연구 및 euphony.js v0.2.0 releas</title>
+      <link>https://blog.jbear.co/post/euphony_js_0.2.0/</link>
+      <pubDate>Fri, 11 Oct 2019 00:26:09 +0900</pubDate>
+      
+      <guid>https://blog.jbear.co/post/euphony_js_0.2.0/</guid>
+      <description>Modulation 방식 개선을 통한 속도 향상 Modulation 이란? 디지털 통신에서 데이터를 보내기 위해 0, 1 등의 데이터를 전기적 신호로 만들어주는 방법입니다. 1990년대 PC 통신에서 주로</description>
+    </item>
+    
+    <item>
+      <title>euphony 프로젝트를 소개합니다.</title>
       <link>https://blog.jbear.co/post/euphony_intro/</link>
       <pubDate>Wed, 09 Oct 2019 00:26:09 +0900</pubDate>
       
@@ -180,15 +189,6 @@
       
       <guid>https://blog.jbear.co/post/18th_vote/</guid>
       <description>고민에 고민을 거듭했던 이번 18대 대선 투표. 참 늦은 후기를 남긴다. 개인적으로 중도우파 성향을 가지고 있는 나지만 선택은 쉽지 않았다. 경상도출신하면 모두 보수</description>
-    </item>
-    
-    <item>
-      <title>SNS가 패션에 끼치는 영향</title>
-      <link>https://blog.jbear.co/post/sns_fashion/</link>
-      <pubDate>Wed, 12 Dec 2012 23:51:13 +0900</pubDate>
-      
-      <guid>https://blog.jbear.co/post/sns_fashion/</guid>
-      <description>소셜네트워크는 참 오랜 역사를 가진 서비스이다. 용어 자체는 페이스북을 영화화한 &amp;lsquo;소셜네트워크&amp;rsquo; 가 개봉한 이래로 자주 등장하게되었</description>
     </item>
     
   </channel>
