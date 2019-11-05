@@ -6,10 +6,19 @@
     <description>Recent content in Posts on jbear&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Copyright jbear All right Reserved</copyright>
-    <lastBuildDate>Fri, 11 Oct 2019 00:26:09 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 06 Nov 2019 00:33:56 +0900</lastBuildDate>
     
 	<atom:link href="https://blog.jbear.co/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>싸이월드 백업하기</title>
+      <link>https://blog.jbear.co/post/cyworld_backup/</link>
+      <pubDate>Wed, 06 Nov 2019 00:33:56 +0900</pubDate>
+      
+      <guid>https://blog.jbear.co/post/cyworld_backup/</guid>
+      <description>싸이월드 백업하는 방법을 공개합니다. https://github.com/designe/cy2me 위 github에 공개된 싸이월드 백업 방법은 Chrome 브라우저를 이용하는 방법입니다. Chrome으로 브라우징하시는 분</description>
+    </item>
     
     <item>
       <title>통신 모듈레이션 방식에 관한 연구 및 euphony.js v0.2.0 releas</title>
@@ -180,15 +189,6 @@
       
       <guid>https://blog.jbear.co/post/sns_fashion/</guid>
       <description>소셜네트워크는 참 오랜 역사를 가진 서비스이다. 용어 자체는 페이스북을 영화화한 &amp;lsquo;소셜네트워크&amp;rsquo; 가 개봉한 이래로 자주 등장하게되었</description>
-    </item>
-    
-    <item>
-      <title>매력적인 폰, 아이폰5</title>
-      <link>https://blog.jbear.co/post/iphone5/</link>
-      <pubDate>Sun, 09 Dec 2012 23:51:22 +0900</pubDate>
-      
-      <guid>https://blog.jbear.co/post/iphone5/</guid>
-      <description>무슨 제품이든 모든 소비자들에게 만족을 줄 수는 없는 것 같다. 어떤 사람들에게는 아이폰3 시절 물방울 모양의 유선형태를 선호하는 경향이 있는가 하면, 아이폰4의 앞</description>
     </item>
     
   </channel>
