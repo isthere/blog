@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>코드 행동 강령 on jbear&#39;s blog</title>
+    <link>https://blog.jbear.co/tags/%EC%BD%94%EB%93%9C-%ED%96%89%EB%8F%99-%EA%B0%95%EB%A0%B9/</link>
+    <description>Recent content in 코드 행동 강령 on jbear&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Copyright jbear All right Reserved</copyright>
+    <lastBuildDate>Mon, 11 Nov 2019 23:33:56 +0900</lastBuildDate>
+    
+	<atom:link href="https://blog.jbear.co/tags/%EC%BD%94%EB%93%9C-%ED%96%89%EB%8F%99-%EA%B0%95%EB%A0%B9/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Code of conduct : 코드 행동 강령</title>
+      <link>https://blog.jbear.co/post/codeofconduct/</link>
+      <pubDate>Mon, 11 Nov 2019 23:33:56 +0900</pubDate>
+      
+      <guid>https://blog.jbear.co/post/codeofconduct/</guid>
+      <description>코드 행동 강령이란 무엇일까요? https://help.github.com/en/github/building-a-strong-community/adding-a-code-of-conduct-to-your-project github의 오픈소스 커뮤니티 활성화 checklist를 보면 아래와 같습니다. 여러가지들 중에서 Code of conducting 보이시나요?</description>
+    </item>
+    
+  </channel>
+</rss>
