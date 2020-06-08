@@ -6,10 +6,19 @@
     <description>Recent content in 백업 on jbear&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Copyright jbear All right Reserved</copyright>
-    <lastBuildDate>Wed, 06 Nov 2019 00:33:56 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 09 Jun 2020 00:33:56 +0900</lastBuildDate>
     
 	<atom:link href="https://blog.jbear.co/tags/%EB%B0%B1%EC%97%85/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>cy2me 싸이월드 백업 FAQ</title>
+      <link>https://blog.jbear.co/post/cyworld_backup_faq/</link>
+      <pubDate>Tue, 09 Jun 2020 00:33:56 +0900</pubDate>
+      
+      <guid>https://blog.jbear.co/post/cyworld_backup_faq/</guid>
+      <description>cy2me를 통해 싸이월드 백업하시면서 궁금하신 부분들에 대한 답변을 정리해보았습니다. 싸이월드 로그인이 안됩니다. 현재 서버가 매우매우 불안정합니다. 로</description>
+    </item>
     
     <item>
       <title>싸이월드 백업하기</title>

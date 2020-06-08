@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Cy2me on jbear&#39;s blog</title>
-    <link>https://blog.jbear.co/tags/cy2me/</link>
-    <description>Recent content in Cy2me on jbear&#39;s blog</description>
+    <title>Faq on jbear&#39;s blog</title>
+    <link>https://blog.jbear.co/tags/faq/</link>
+    <description>Recent content in Faq on jbear&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Copyright jbear All right Reserved</copyright>
     <lastBuildDate>Tue, 09 Jun 2020 00:33:56 +0900</lastBuildDate>
     
-	<atom:link href="https://blog.jbear.co/tags/cy2me/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://blog.jbear.co/tags/faq/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -18,15 +18,6 @@
       
       <guid>https://blog.jbear.co/post/cyworld_backup_faq/</guid>
       <description>cy2me를 통해 싸이월드 백업하시면서 궁금하신 부분들에 대한 답변을 정리해보았습니다. 싸이월드 로그인이 안됩니다. 현재 서버가 매우매우 불안정합니다. 로</description>
-    </item>
-    
-    <item>
-      <title>싸이월드 백업하기</title>
-      <link>https://blog.jbear.co/post/cyworld_backup/</link>
-      <pubDate>Wed, 06 Nov 2019 00:33:56 +0900</pubDate>
-      
-      <guid>https://blog.jbear.co/post/cyworld_backup/</guid>
-      <description>싸이월드 백업하는 방법을 공개합니다. https://github.com/designe/cy2me 위 github에 공개된 싸이월드 백업 방법은 Chrome 브라우저를 이용하는 방법입니다. Chrome으로 브라우징하시는 분</description>
     </item>
     
   </channel>

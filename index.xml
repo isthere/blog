@@ -6,10 +6,19 @@
     <description>Recent content on jbear&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Copyright jbear All right Reserved</copyright>
-    <lastBuildDate>Mon, 11 Nov 2019 23:33:56 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 09 Jun 2020 00:33:56 +0900</lastBuildDate>
     
 	<atom:link href="https://blog.jbear.co/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>cy2me 싸이월드 백업 FAQ</title>
+      <link>https://blog.jbear.co/post/cyworld_backup_faq/</link>
+      <pubDate>Tue, 09 Jun 2020 00:33:56 +0900</pubDate>
+      
+      <guid>https://blog.jbear.co/post/cyworld_backup_faq/</guid>
+      <description>cy2me를 통해 싸이월드 백업하시면서 궁금하신 부분들에 대한 답변을 정리해보았습니다. 싸이월드 로그인이 안됩니다. 현재 서버가 매우매우 불안정합니다. 로</description>
+    </item>
     
     <item>
       <title>Code of conduct : 코드 행동 강령</title>
@@ -180,15 +189,6 @@
       
       <guid>https://blog.jbear.co/post/kakaotalk_story/</guid>
       <description>현재 카카오톡이 한국 모바일 플랫폼의 안드로이드화에 미치고 있는 영향에 대해 글을 쓰고 싶다. 통계 찾고 하는게 넘 귀찮아서 나중으로 보류해야겠다~ 페이스북에 정리</description>
-    </item>
-    
-    <item>
-      <title>Emplace 울산중구청 일자리관리시스템 개발기</title>
-      <link>https://blog.jbear.co/post/emplace/</link>
-      <pubDate>Thu, 27 Dec 2012 00:50:51 +0900</pubDate>
-      
-      <guid>https://blog.jbear.co/post/emplace/</guid>
-      <description>2012년 7월 말, 기쁜 마음을 안고 한국에 돌아온 것도 잠시 한국은 내가 생각한 그 이상으로 바쁘다는 사실을 절실히 깨닫게 되었다. 나는 바로 울산으로 내려갔고, 중</description>
     </item>
     
   </channel>
