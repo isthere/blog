@@ -50,13 +50,23 @@
           <p class="post-date">Posted <time datetime="2020-06-09">Jun 9, 2020</time></p>
         </header>
         
-        <p>cy2me를 통해 싸이월드 백업하시면서<br />
-많은 분들이 q&amp;a 에 질문을 남겨주셨어요.<br />
-<a href="https://blog.jbear.co/post/cyworld_backup/">https://blog.jbear.co/post/cyworld_backup/</a></p>
+        
+
+<p>cy2me를 통해 싸이월드 백업하시면서<br />
+많은 분들이 q&amp;a 에 질문을 남겨주셨어요.</p>
+
+<p>CY2ME : <a href="https://github.com/designe/cy2me">https://github.com/designe/cy2me</a>
+Q&amp;A : <a href="https://blog.jbear.co/post/cyworld_backup/">https://blog.jbear.co/post/cyworld_backup/</a></p>
 
 <p>궁금하신 부분들에 대한 답변을 정리해보았습니다.</p>
 
+<h2 id="싸이월드-접속-faq">싸이월드 접속 FAQ</h2>
+
 <ul>
+<li><p><strong>브라우저는 꼭 Chrome으로 해야하나요?</strong>
+Google Chrome, Microsoft Edge, Firefox가 가장 최신의 웹표준을 빠르게 반영하고 있습니다.<br />
+Internet Explorer는 정상동작하지 않으니 위 3개의 브라우저를 이용해 백업해주시면 되겠습니다.</p></li>
+
 <li><p><strong>싸이월드 로그인이 안됩니다.</strong><br />
 현재 서버가 매우매우 불안정합니다.<br />
 로그인을 하더라도 싸이월드 메인 페이지에서 미니홈피로 넘어가지 않는 경우가 있어요.<br />
@@ -64,17 +74,45 @@
 로그인 페이지에서 로그인 이후에 다른사람 홈피를 눌러서 자신의 미니홈피에 접근이 가능합니다.</p></li>
 
 <li><p><strong>싸이월드 미니홈피에 접속하니 An error occurred 가 뜹니다.</strong><br />
-이 또한 서버가 매우 불안정하기 때문에 접속이 잘될때도 있고 잘되지 않을때도 있습니다.
+이 또한 서버가 매우 불안정하기 때문에 접속이 잘될때도 있고 잘되지 않을때도 있습니다.<br />
 현재 접속이 안된다고 해서 아예 안되는 것은 아니기 때문에 기다렸다가 다시 시도합니다.</p></li>
+</ul>
+
+<h2 id="크롬-개발-도구-스크립트-faq">크롬 개발 도구 스크립트 FAQ</h2>
+
+<ul>
+<li><p><strong>댓글 백업도 가능한가요?</strong>
+게시판, 사진첩, 다이어리 모두 댓글 백업이 기본적으로 활성화되어 있습니다.<br />
+댓글 데이터까지 모두 다운로드하다보니 속도가 조금 느린점 양해해주세요 :)</p></li>
 
 <li><p><strong>2010년 이전의 글은 백업이 되지 않나요?</strong><br />
 많은 분들이 질문을 주셨는데 2009년 이전의 글도 문제없이 백업이 됩니다.<br />
 어떤 사용자들은 한번에 깔끔하게 백업을 성공하기도 하고 어떤분들은 듬성듬성 백업이 되는데 이는 서버 과부하 이슈이며 사용자가 많이 사용하지 않는 시간대에 다시 한번 해보시면 깔끔하게 백업을 성공하실 수 있습니다.</p></li>
 
-<li><p><strong>cy2me 뷰어를 통째로 받을 수 없나요?</strong><br />
+<li><p><strong>종종 502, 504 (bad gateway) 에러가 납니다.</strong>
+본 백업 방식은 사용자가 페이지 한장 한장 접속해가며 백업하는 방식을 자동화한 결과물입니다.<br />
+따라서 시도할때 502, 504 에러는 현재 싸이월드 서버 상태가 매우 불안정함을 의미합니다.<br />
+사용자들이 많이 없는 시간대에 다시 시도해보시면 좋은 백업 결과를 받으실 수 있을 것입니다.</p></li>
+</ul>
+
+<h2 id="cy2me-뷰어-faq">CY2ME 뷰어 FAQ</h2>
+
+<ul>
+<li><strong>cy2me 뷰어를 통째로 받을 수 없나요?</strong><br />
 매우 간단합니다. cy2me에 백업파일을 로드하신 후<br />
 오른쪽 클릭 -&gt; 다른이름으로 저장 하시면 전체 파일이 통쨰로 저장됩니다.<br />
-또 인쇄 -&gt; pdf로 출력하시면 pdf로 보관하실 수 있습니다 :)</p></li>
+또 인쇄 -&gt; pdf로 출력하시면 pdf로 보관하실 수 있습니다 :)<br />
+<br /></li>
+</ul>
+
+<h2 id="powershell-faq">Powershell FAQ</h2>
+
+<ul>
+<li><strong>&lsquo;Invoke-WebRequest&rsquo; 용어가 cmdlet, 함수, 스크립트 파일 또는 실행할 수 있는 &hellip;</strong></li>
+<li><strong>인수를 허용하는 위치 매개 변수를 찾을 수 없습니다.</strong>
+파워쉘 버전 3.0 미만을 용용했을때 발생하는 문제입니다.<br />
+파워쉘 버전을 3.0 이상으로 업데이트 후 다시 해보시면 정상 백업이 가능합니다.
+<a href="https://www.microsoft.com/en-us/download/details.aspx?id=34595">https://www.microsoft.com/en-us/download/details.aspx?id=34595</a></li>
 </ul>
 
 <p>싸이월드 백업 받으시느라 다들 정말 고생이 많으십니다ㅠ<br />
