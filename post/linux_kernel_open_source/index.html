@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>Linux Kernel이 Open Source로써 성공할 수 있었던 이유 &middot; jbear&#39;s blog</title>
+  <title>리눅스가 Open Source로써 성공할 수 있었던 이유 &middot; jbear&#39;s blog</title>
   <meta name="description" content="" />
   
   <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
@@ -46,15 +46,100 @@
     <main class="content side-text-padding">
       <article class="post dropcase">
         <header class="post-header">
-        	<h1 class="post-title">Linux Kernel이 Open Source로써 성공할 수 있었던 이유</h1>
+        	<h1 class="post-title">리눅스가 Open Source로써 성공할 수 있었던 이유</h1>
           <p class="post-date">Posted <time datetime="2020-11-15">Nov 15, 2020</time></p>
         </header>
         
         
 
-<h3 id="linux-kernel이-성공할-수-있었던-이유는-바로">Linux Kernel이 성공할 수 있었던 이유는 바로</h3>
+<h3 id="리눅스의-시작">리눅스의 시작</h3>
 
-<p>리눅스 커널이 오픈소스로 성공할 수 있었던 이유는 여러가지가 있을 수 있겠지만 내가 생각하는 가장 첫번째 이유는 바로 Documentation에 있다고 생각한다. 리눅스 커널 소스는 linus의 github에 상세히 나와있는데 한번 살펴보도록 하자.</p>
+<p>리누스가 &ldquo;Just for fun&rdquo; 취미로 만들었던 OS Linux. 지금은 세상을 돌아가게 하는 가장 커다란 OS 중 하나입니다. 생각해보면 참 대단한 역사를 가지고 있는 것 같아요.
+시작은 교육용 Unix인 Minix의 대안으로 취미 삼아 만든 OS가 지금은 전세계에서 가장 많이 사용하는 OS가 되었죠. 시작은 작았으나 이렇게 거대한 공룡이 되기까지는 참 많은 우여곡절이 있었을거라고 생각해요.</p>
+
+<h3 id="리눅스의-진짜-시작">리눅스의 진짜 시작</h3>
+
+<p>linux kernel git repositories : <a href="https://git.kernel.org">https://git.kernel.org</a>
+linux kernel github : <a href="https://github.com/torvalds/linux">https://github.com/torvalds/linux</a></p>
+
+<p>위 링크된 페이지는 리눅스 커널 소스를 볼 수 있는 페이지입니다. 많은 개발자 분들에게 github이 친숙하기 때문에 한번 쭉 훓어볼까요?<br />
+생각보다(?) github에 익숙하신 분들에게는 친절하지 못하다고 느낄 수 있습니다. README.md도 단순명료합니다.
+현재 git master의 commit 수는 약 97만개 정도군요. 생각보다 적다구요? 사실은 이는 리눅스 커널 2.6.12-rc2 버전 이후부터의 commit 수 입니다.
+아쉽게도 torvalds의 github에서는 리눅스의 첫번째 커밋을 볼 수가 없어요. 대신 다른 분이 리눅스 0.01 버전을 kernel.org의 ftp를 통해 올려둔게 있는데<br />
+<a href="https://github.com/zavg/linux-0.01">https://github.com/zavg/linux-0.01</a><br />
+바로 위 repository 입니다.</p>
+
+<p>리눅스 커널이 오픈소스로 성공할 수 있었던 이유는 여러가지가 있을 수 있겠지만 제가 생각하는 가장 첫번째 이유는 바로 Documentation에 있다고 생각해요.</p>
+
+<p><a href="https://github.com/zavg/linux-0.01/blob/master/init/main.c">https://github.com/zavg/linux-0.01/blob/master/init/main.c</a></p>
+
+<p>리눅스 0.01 커널 버전의 main 코드를 살짝 맛보실까요?</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-c" data-lang="c"><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-c" data-lang="c"><span class="kt">void</span> <span class="nf">main</span><span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="cm">/* This really IS void, no error here. */</span>
+    <span class="p">{</span><span class="cm">/* The startup routine assumes (well, ...) this */</span>
+    <span class="cm">/*
+</span><span class="cm">     * Interrupts are still disabled. Do necessary setups, then
+</span><span class="cm">      * enable them
+</span><span class="cm">       */</span>
+           <span class="n">time_init</span><span class="p">();</span>
+               <span class="n">tty_init</span><span class="p">();</span>
+                   <span class="n">trap_init</span><span class="p">();</span>
+                       <span class="n">sched_init</span><span class="p">();</span>
+                           <span class="n">buffer_init</span><span class="p">();</span>
+                               <span class="n">hd_init</span><span class="p">();</span>
+                                   <span class="n">sti</span><span class="p">();</span>
+                                       <span class="n">move_to_user_mode</span><span class="p">();</span>
+    <span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="n">fork</span><span class="p">())</span> <span class="p">{</span><span class="cm">/* we count on this going ok */</span>
+<span class="n">init</span><span class="p">();</span>
+    <span class="p">}</span>
+    <span class="cm">/*
+</span><span class="cm">     *   NOTE!!   For any other task &#39;pause()&#39; would mean we have to get a
+</span><span class="cm">      * signal to awaken, but task0 is the sole exception (see &#39;schedule()&#39;)
+</span><span class="cm">       * as task 0 gets activated at every idle moment (when no other tasks
+</span><span class="cm">        * can run). For task0 &#39;pause()&#39; just means we go check if some other
+</span><span class="cm">         * task can run, and if not we return here.
+</span><span class="cm">          */</span>
+              <span class="k">for</span><span class="p">(;;)</span> <span class="n">pause</span><span class="p">();</span>
+              <span class="p">}</span></code></pre></td></tr></table>
+</div>
+</div>
+<p>코드를 보시면 마치 하나의 글을 읽고 있다는 느낌이 들지 않나요? 저기 간단한 void main 선언부만 보더라도 에러가 나지 않는다고 친절하게 설명을 붙여두었어요. 그리고 현재의 리눅스에는 어마어마한 Documentation이 있습니다.</p>
+
+<p><a href="https://github.com/torvalds/linux/tree/master/Documentation">https://github.com/torvalds/linux/tree/master/Documentation</a></p>
+
+<p>이게 리눅스 문서들이에요. 엄청나게 많죠? 지금은 솔직히 다 보기는 힘들겠지만 정작 개발자들이 디바이스 드라이버를 만든다던지 특정 코드를 고쳐야한다던지 할때에는 여기 Documentation보다 좋은 설명을 인터넷에서 찾기가 힘들어요.</p>
+
+<p>오픈 소스를 성공시키고 싶다구요?<br />
+바로 리눅스를 따라하면 됩니다! Documentation은 소통의 중심이고 오픈 소스를 돌아가게 만드는 정말 중요한 포인트입니다. 앞으로 개발하면서 Documentation을 재미있게 남기면서 개발해봅시다!</p>
 
       </article>
       
