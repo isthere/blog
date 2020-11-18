@@ -6,10 +6,19 @@
     <description>Recent content in 백업 on jbear&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Copyright jbear All right Reserved</copyright>
-    <lastBuildDate>Tue, 09 Jun 2020 00:33:56 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 15 Nov 2020 00:33:56 +0900</lastBuildDate>
     
 	<atom:link href="https://blog.jbear.co/tags/%EB%B0%B1%EC%97%85/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Linux Kernel이 Open Source로써 성공할 수 있었던 이유</title>
+      <link>https://blog.jbear.co/post/linux_kernel_open_source/</link>
+      <pubDate>Sun, 15 Nov 2020 00:33:56 +0900</pubDate>
+      
+      <guid>https://blog.jbear.co/post/linux_kernel_open_source/</guid>
+      <description>Linux Kernel이 성공할 수 있었던 이유는 바로 리눅스 커널이 오픈소스로 성공할 수 있었던 이유는 여러가지가 있을 수 있겠지만 내가 생각하는 가장 첫번째 이유는 바로 D</description>
+    </item>
     
     <item>
       <title>cy2me 싸이월드 백업 FAQ</title>

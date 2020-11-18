@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://blog.jbear.co/post/linux_kernel_open_source/</loc>
+    <lastmod>2020-11-15T00:33:56+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://blog.jbear.co/post/cy2me_faq/</loc>
     <lastmod>2020-06-09T00:33:56+09:00</lastmod>
   </url>
@@ -254,7 +259,7 @@
   
   <url>
     <loc>https://blog.jbear.co/tags/backup/</loc>
-    <lastmod>2020-06-09T00:33:56+09:00</lastmod>
+    <lastmod>2020-11-15T00:33:56+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -307,13 +312,13 @@
   
   <url>
     <loc>https://blog.jbear.co/tags/cy2me/</loc>
-    <lastmod>2020-06-09T00:33:56+09:00</lastmod>
+    <lastmod>2020-11-15T00:33:56+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://blog.jbear.co/tags/cyworld/</loc>
-    <lastmod>2020-06-09T00:33:56+09:00</lastmod>
+    <lastmod>2020-11-15T00:33:56+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -367,7 +372,7 @@
   
   <url>
     <loc>https://blog.jbear.co/tags/faq/</loc>
-    <lastmod>2020-06-09T00:33:56+09:00</lastmod>
+    <lastmod>2020-11-15T00:33:56+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -469,7 +474,7 @@
   
   <url>
     <loc>https://blog.jbear.co/post/</loc>
-    <lastmod>2020-06-09T00:33:56+09:00</lastmod>
+    <lastmod>2020-11-15T00:33:56+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -559,7 +564,7 @@
   
   <url>
     <loc>https://blog.jbear.co/</loc>
-    <lastmod>2020-06-09T00:33:56+09:00</lastmod>
+    <lastmod>2020-11-15T00:33:56+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -685,7 +690,7 @@
   
   <url>
     <loc>https://blog.jbear.co/tags/%EB%B0%B1%EC%97%85/</loc>
-    <lastmod>2020-06-09T00:33:56+09:00</lastmod>
+    <lastmod>2020-11-15T00:33:56+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -769,7 +774,7 @@
   
   <url>
     <loc>https://blog.jbear.co/tags/%EC%8B%B8%EC%9D%B4%EC%9B%94%EB%93%9C/</loc>
-    <lastmod>2020-06-09T00:33:56+09:00</lastmod>
+    <lastmod>2020-11-15T00:33:56+09:00</lastmod>
     <priority>0</priority>
   </url>
   
